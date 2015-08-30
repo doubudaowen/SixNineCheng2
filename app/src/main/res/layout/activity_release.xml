@@ -1,0 +1,694 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.mobile.liujiucheng.sixninecheng.main.activityliu.ReleaseActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea">
+
+        <ImageView
+            android:id="@+id/release_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发布"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#EEEEEE"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="条件筛选"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:id="@+id/release_area"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_area_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="区域" />
+
+                <TextView
+                    android:id="@+id/release_area_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_area_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_area_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_price"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+
+                    android:id="@+id/release_price_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="价格" />
+
+                <TextView
+                    android:id="@+id/release_price_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_price_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_price_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_in_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="入住" />
+
+                <EditText
+                    android:id="@+id/release_in_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/release_in_tv1"
+                    android:hint="入住时间，格式为：2015-02-05"
+                    android:inputType="datetime" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="#EEEEEE"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="基础资料"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_icon_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="头像" />
+
+                <TextView
+                    android:id="@+id/release_icon_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="必须是真实的个人生活照"
+                    android:textColor="#CCCCCC" />
+
+                <ImageView
+                    android:id="@+id/release_icon_iv"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/aa" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_name_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="姓名" />
+
+                <EditText
+                    android:id="@+id/release_name_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/release_name_tv1"
+                    android:hint="某某某" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/release_sex_tv"
+                    style="@style/instruction_word_size"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:text="性别" />
+
+                <RadioGroup
+                    android:id="@+id/release_rg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="5"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/release_sex_man"
+                        style="@style/instruction_word_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:padding="10dp"
+                        android:text="男" />
+
+                    <RadioButton
+                        android:id="@+id/release_sex_woman"
+                        style="@style/instruction_word_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="女" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_tel_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="电话" />
+
+                <EditText
+                    android:id="@+id/release_tel_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/release_tel_tv1"
+                    android:hint="18899989888"
+                    android:inputType="number"
+                    android:maxLength="11" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_age"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_age_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="年龄" />
+
+                <TextView
+                    android:id="@+id/release_age_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_age_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_age_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_interest"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_interest_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="兴趣" />
+
+                <TextView
+                    android:id="@+id/release_interest_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_interest_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_interest_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_constellation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_constellation_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="星座" />
+
+                <TextView
+                    android:id="@+id/release_constellation_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_constellation_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_constellation_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_hometown"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_hometown_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="籍贯" />
+
+                <TextView
+                    android:id="@+id/release_hometown_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_hometown_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_hometown_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_school"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_school_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="院校" />
+
+                <TextView
+                    android:id="@+id/release_school_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_school_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_school_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_job"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_job_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="职业" />
+
+                <TextView
+                    android:id="@+id/release_job_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/release_job_iv1"
+                    android:text="请选择"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/release_job_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_title_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="标题" />
+
+                <EditText
+                    android:id="@+id/release_title_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/release_title_tv1"
+                    android:hint="给该条信息一个吸引眼球的标题" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/release_state"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/release_state_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="说明" />
+
+                <TextView
+                    android:id="@+id/release_state_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/release_state_iv1"
+                    android:layout_toRightOf="@id/release_state_tv1"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/release_state_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="#EEEEEE"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/release_picture_background">
+
+                    <ImageView
+                        android:id="@+id/release_photo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/release_picture_background">
+
+                    <ImageView
+                        android:id="@+id/release_photo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/release_picture_background">
+
+                    <ImageView
+                        android:id="@+id/release_photo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="#EEEEEE"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/release_button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea"
+        android:text="确定发布"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

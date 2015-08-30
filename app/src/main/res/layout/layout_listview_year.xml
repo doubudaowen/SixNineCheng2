@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_four_nine_top"
+    android:background="#FFFFFF"
+    android:minHeight="@dimen/my_four_nine_top" >
+
+    <!-- 产权年限的item -->
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/my_three_nine_width"
+        android:text="发布房源"
+        android:textSize="@dimen/my_two_text_width" />
+
+</RelativeLayout>

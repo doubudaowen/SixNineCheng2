@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_item"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="20dp"
+    android:text="发布房源"
+    android:textSize="@dimen/my_two_text_width"
+    android:textColor="@drawable/addroommate_dialog_selector"/>

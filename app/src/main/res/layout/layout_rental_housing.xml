@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/search_box_height"
+            android:layout_gravity="center"
+            android:background="@drawable/home_serach"
+            android:drawableLeft="@drawable/home_search"
+            android:focusable="false"
+            android:hint="@string/my_home_item"
+            android:paddingLeft="15dp"
+            android:textColor="@color/hidden_search_word"
+            android:textColorHint="@color/hidden_search"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/home_beijing_left"
+            android:text="北京"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/home_beijing_size" />
+
+    </LinearLayout>
+
+    <include
+
+        layout="@layout/layout_item_house" />
+
+</LinearLayout>

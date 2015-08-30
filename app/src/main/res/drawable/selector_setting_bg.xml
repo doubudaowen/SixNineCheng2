@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_setting_bg_click" android:state_pressed="true"/>
+ <!-- pressed 按下 -->
+    <item android:drawable="@drawable/shape_setting_bg_click" android:state_focused="true"/>
+ <!-- focused 获取焦点 -->
+    <item android:drawable="@drawable/shape_setting_bg_normal"/>
+ <!-- default  正常 -->
+
+</selector>

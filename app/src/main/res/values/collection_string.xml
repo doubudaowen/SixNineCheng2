@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="collection_house">你还没有收藏过相关的房源</string>
+    <dimen name="collection_text">18sp</dimen>
+    
+</resources>

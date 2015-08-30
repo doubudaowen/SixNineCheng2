@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--启动页高度  -->
+    <dimen name="welcome_top">500dp</dimen>
+    <!--字体的大小  -->
+    <dimen name="home_text_size_font_my">18sp</dimen>
+    <dimen name="home_text_top_one">15dp</dimen>
+
+    <dimen name="home_gridView_height">254.0dp</dimen>
+
+    <dimen name="home_top">15dp</dimen>
+    <dimen name="home_bot">15dp</dimen>
+</resources>

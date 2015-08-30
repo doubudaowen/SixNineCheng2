@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/map_region_second_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv_mumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12357套"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_marginBottom="12dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="海淀区"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</RelativeLayout>

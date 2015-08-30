@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/enter_recorded_box" android:state_checked="true" />
+    <!-- true 选择 -->
+    <item android:drawable="@drawable/enter_check_box" android:state_checked="false" />
+    <!-- false 未选择 -->
+    <item android:drawable="@drawable/enter_check_box" />
+    <!-- 默认的-->
+</selector>

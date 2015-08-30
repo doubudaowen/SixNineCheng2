@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true" >
+
+        <include
+            android:id="@+id/iv_buttom"
+
+            layout="@layout/layout_map_head" />
+
+        <com.mobile.liujiucheng.main.widget.PullToRefreshListView
+            android:id="@+id/lv_main_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_buttom"
+            android:background="@android:color/white"
+            android:cacheColorHint="@null"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.1dip"
+            android:listSelector="@drawable/transparent"
+            ptr:mode="pullDownFromTop" />
+    </RelativeLayout>
+
+</RelativeLayout>

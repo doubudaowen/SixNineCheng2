@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">六九城</string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh_pull_down_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">释放刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="tv_loading">你还没有登录,登录过后可以发布房源</string>
+    <string name="et_loading_number">请输入你的电话号码</string>
+    <string name="et_loading_password">请输入你的密码</string>
+    <string name="loading">登录</string>
+    <string name="registered">注册</string>
+    <string name="about_we">关于我们</string>
+    <string name="key_word">输入的地区</string>
+    <string name="positioning">正在定位,请稍后</string>
+    <!-- 关于网络 -->
+    <string name="net_connection">当前没有网络,请检测你的网络情况</string>
+
+    <!-- 主界面的图片名称 -->
+    <string name="home_sencond">二手房源</string>
+    <string name="home_fangyuan">出租房源</string>
+    <string name="home_answer">家政服务</string>
+    <string name="home_map_house">地图找房</string>
+    <string name="home_check">看房行程</string>
+    <string name="home_integral ">积分商城</string>
+    <string name="home_adapter">立即体验</string>
+    <string name="home_sencond_item">二手房</string>
+    <string name="home_item">出租房</string>
+    <string name="my_home_item">请输入商圈或小区名</string>
+    <string name="my_home_house">我的房源</string>
+    <string name="modif_name">修改</string>
+    <string name="my_tell_phone">我的手机号码</string>
+    <string name="exit_loading">退出登录</string>
+    <string name="position_surrounding">位置及周边</string>
+    <string name="surrounding_content">你还没有输入修改的内容</string>
+    <string name="fill_surrounding_content">填入修改的内容</string>
+    <string name="my_cancal">取消</string>
+    <string name="my_deter">确定</string>
+    <string name="contact_us">联系我们</string>
+    <string name="contact_pposition">地 址:东三环 朝阳 广渠门外大街8号 优士阁B座1506室</string>
+    <string name="contact_way">媒体关系部门电话 ：86 10 53645878</string>
+    <string name="contact_way_one">网络运营部门电话 ：86 10 57490090</string>
+    <string name="contact_way_two">商务合作部门电话 ：86 10 57192688</string>
+    <string name="contact_operating">北京市场运营中心</string>
+    <string name="about_contact_operating">六九城是一个专业于家生活领域服务的开放O2O平台,为用户提供专业的房屋,租赁买卖服务生活家政服务,以及相关的金融服务</string>
+    <string name="about_us_content">关于六九城</string>
+    <string name="personal_center">个人中心</string>
+    <string name="loading_register">登录/注册</string>
+
+    <!-- layout_secondary_release布局文件中的描述（发布房源） -->
+    <string name="rental_house">发布房源</string>
+
+    <!-- 搜索界面的二手房和出租房选择 -->
+    <string name="second_hand_house">二手房</string>
+    <string name="rental_housing">出租房</string>
+    <string name="title_activity_panda_rent">PandaRentActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_panda_item">PandaItem</string>
+    <string name="title_activity_acquire_rent">AcquireRentActivity</string>
+    <string name="title_activity_acquire_item">AcquireItemActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_add_roommate">AddRoommateActivity</string>
+    <string name="title_activity_my_release">MyReleaseActivity</string>
+    <string name="title_activity_my_release_see_panda">MyReleaseSeePandaActivity</string>
+    <string name="title_activity_my_release_see_release">MyReleaseSeeReleaseActivity</string>
+    <string name="title_activity_my_release_see_rent">MyReleaseSeeRentActivity</string>
+    <string name="title_activity_my_release_see_sell">MyReleaseSeeSellActivity</string>
+    <string name="title_activity_panda_rental">PandaRentalActivity</string>
+    <string name="title_activity_panda_rental_check_pay">PandaRentalCheckPayActivity</string>
+    <string name="title_activity_panda_rental_check_towards">PandaRentalCheckTowardsActivity</string>
+    <string name="title_activity_panda_rental_state">PandaRentalStateActivity</string>
+    <string name="title_activity_release">ReleaseActivity</string>
+    <string name="title_activity_modification">ModificationActivity</string>
+    <string name="title_activity_my_account">MyAccountActivity</string>
+    <string name="title_activity_nine_six">NineSixActivity</string>
+    <string name="title_activity_ics_test">IcsTestActivity</string>
+    <string name="title_activity_house_details">HouseDetailsActivity</string>
+
+</resources>

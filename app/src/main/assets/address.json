@@ -1,0 +1,4360 @@
+{
+    "city": [
+        {
+            "id": 1,
+            "isDel": 0,
+            "name": "北京",
+            "parentId": "1827",
+            "tdistrict": [
+                {
+                    "id": 0,
+                    "name": "不限"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 3,
+                            "listname": "1204",
+                            "name": "安贞",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.407612",
+                            "zuobiaoY": "39.973173"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 6,
+                            "listname": "5992",
+                            "name": "安慧桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.414049",
+                            "zuobiaoY": "39.994581"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 14,
+                            "listname": "5994",
+                            "name": "奥运村",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.419443",
+                            "zuobiaoY": "40.032934"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 23,
+                            "listname": "7565",
+                            "name": "北沙滩",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.375008",
+                            "zuobiaoY": "40.011804"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 34,
+                            "listname": "5782",
+                            "name": "北苑",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.427936",
+                            "zuobiaoY": "40.047364"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 50,
+                            "listname": "7558",
+                            "name": "百子湾",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.508494",
+                            "zuobiaoY": "39.902641"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 64,
+                            "listname": "14036",
+                            "name": "八里庄",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.504199",
+                            "zuobiaoY": "39.922106"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 78,
+                            "listname": "6834",
+                            "name": "CBD ",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.482007",
+                            "zuobiaoY": "39.914908"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 92,
+                            "listname": "6017",
+                            "name": "朝外大街",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.450624",
+                            "zuobiaoY": "39.929643"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 106,
+                            "listname": "5999",
+                            "name": "朝阳公园",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.487474",
+                            "zuobiaoY": "39.946041"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 120,
+                            "listname": "6833",
+                            "name": "朝青板块",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.521835",
+                            "zuobiaoY": "39.932923"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 134,
+                            "listname": "12197",
+                            "name": "慈云寺",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.49584",
+                            "zuobiaoY": "39.91831"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 148,
+                            "listname": "6009",
+                            "name": "常营",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.593001",
+                            "zuobiaoY": "39.933318"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 161,
+                            "listname": "1208",
+                            "name": "朝阳周边",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.521695",
+                            "zuobiaoY": "39.958953"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 173,
+                            "listname": "5785",
+                            "name": "大望路",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.484778",
+                            "zuobiaoY": "39.919948"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 185,
+                            "listname": "6830",
+                            "name": "东大桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.45729",
+                            "zuobiaoY": "39.926268"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 196,
+                            "listname": "5993",
+                            "name": "大屯",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.41793",
+                            "zuobiaoY": "40.007698"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 207,
+                            "listname": "7551",
+                            "name": "大山子",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.49488",
+                            "zuobiaoY": "39.990349"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 216,
+                            "listname": "6011",
+                            "name": "东坝",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.565403",
+                            "zuobiaoY": "39.973693"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 225,
+                            "listname": "6835",
+                            "name": "定福庄",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.555997",
+                            "zuobiaoY": "39.921601"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 234,
+                            "listname": "6004",
+                            "name": "豆各庄",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.508015",
+                            "zuobiaoY": "39.945244"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 242,
+                            "listname": "5998",
+                            "name": "垡头",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.518941",
+                            "zuobiaoY": "39.869485"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 250,
+                            "listname": "1195",
+                            "name": "国贸",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.471372",
+                            "zuobiaoY": "39.915404"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 257,
+                            "listname": "5990",
+                            "name": "广渠门",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.451842",
+                            "zuobiaoY": "39.899838"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 264,
+                            "listname": "5826",
+                            "name": "工体",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.453522",
+                            "zuobiaoY": "39.936121"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 271,
+                            "listname": "7560",
+                            "name": "国展",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.449021",
+                            "zuobiaoY": "39.96729"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 277,
+                            "listname": "12179",
+                            "name": "甘露园",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.527899",
+                            "zuobiaoY": "39.920838"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 283,
+                            "listname": "6940",
+                            "name": "高碑店",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.537253",
+                            "zuobiaoY": "39.909664"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 288,
+                            "listname": "5781",
+                            "name": "管庄",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.596516",
+                            "zuobiaoY": "39.920029"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 293,
+                            "listname": "1207",
+                            "name": "呼家楼",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.472623",
+                            "zuobiaoY": "39.92601"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 297,
+                            "listname": "5784",
+                            "name": "和平街",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.437885",
+                            "zuobiaoY": "39.971098"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 300,
+                            "listname": "6019",
+                            "name": "花家地",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.476907",
+                            "zuobiaoY": "39.981833"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 303,
+                            "listname": "6018",
+                            "name": "红庙",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.365326",
+                            "zuobiaoY": "40.383636"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 306,
+                            "listname": "13695",
+                            "name": "惠新西街",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.42294",
+                            "zuobiaoY": "39.994573"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 309,
+                            "listname": "14068",
+                            "name": "欢乐谷",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.506016",
+                            "zuobiaoY": "39.872724"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 312,
+                            "listname": "14576",
+                            "name": "惠新里",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.428081",
+                            "zuobiaoY": "39.98849"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 315,
+                            "listname": "15377",
+                            "name": "华威桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.467712",
+                            "zuobiaoY": "39.875052"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 318,
+                            "listname": "1199",
+                            "name": "劲松",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.471857",
+                            "zuobiaoY": "39.891817"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 321,
+                            "listname": "5988",
+                            "name": "建外大街",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.45013",
+                            "zuobiaoY": "39.915891"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 324,
+                            "listname": "1202",
+                            "name": "京广桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.468276",
+                            "zuobiaoY": "39.926022"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 327,
+                            "listname": "1206",
+                            "name": "酒仙桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.4964",
+                            "zuobiaoY": "39.973247"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 330,
+                            "listname": "7562",
+                            "name": "将台路",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.509469",
+                            "zuobiaoY": "39.977672"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 333,
+                            "listname": "15334",
+                            "name": "健翔桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.384888",
+                            "zuobiaoY": "39.9942"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 336,
+                            "listname": "7566",
+                            "name": "柳芳",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.223709",
+                            "zuobiaoY": "39.855583"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 339,
+                            "listname": "6012",
+                            "name": "来广营",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.462466",
+                            "zuobiaoY": "40.030175"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 342,
+                            "listname": "6001",
+                            "name": "麦子店",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.476364",
+                            "zuobiaoY": "39.951491"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 345,
+                            "listname": "12211",
+                            "name": "媒体村",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.422709",
+                            "zuobiaoY": "40.039426"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 348,
+                            "listname": "6005",
+                            "name": "南磨房",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.485255",
+                            "zuobiaoY": "39.881572"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 351,
+                            "listname": "5780",
+                            "name": "潘家园",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.644085",
+                            "zuobiaoY": "40.335696"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 354,
+                            "listname": "5786",
+                            "name": "四惠",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.514631",
+                            "zuobiaoY": "39.911666"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 356,
+                            "listname": "5779",
+                            "name": "双井",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.265432",
+                            "zuobiaoY": "40.00205"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 358,
+                            "listname": "1198",
+                            "name": "三里屯",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.454064",
+                            "zuobiaoY": "39.943395"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 360,
+                            "listname": "1194",
+                            "name": "三元桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.460953",
+                            "zuobiaoY": "39.963489"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 362,
+                            "listname": "7550",
+                            "name": "芍药居",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.443424",
+                            "zuobiaoY": "39.986293"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 364,
+                            "listname": "6002",
+                            "name": "首都机场",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.599267",
+                            "zuobiaoY": "40.062485"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 366,
+                            "listname": "6021",
+                            "name": "水碓子",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.480773",
+                            "zuobiaoY": "39.933053"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 368,
+                            "listname": "6006",
+                            "name": "石佛营",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.269913",
+                            "zuobiaoY": "39.70616"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 370,
+                            "listname": "5997",
+                            "name": "十里堡",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.509659",
+                            "zuobiaoY": "39.937632"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 372,
+                            "listname": "11367",
+                            "name": "双桥",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.584439",
+                            "zuobiaoY": "39.916053"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 374,
+                            "listname": "6003",
+                            "name": "十八里店",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.538741",
+                            "zuobiaoY": "39.855704"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 376,
+                            "listname": "12945",
+                            "name": "十里河",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.474715",
+                            "zuobiaoY": "39.866288"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 378,
+                            "listname": "16081",
+                            "name": "胜古",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.417522",
+                            "zuobiaoY": "39.979606"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 380,
+                            "listname": "15335",
+                            "name": "松榆里",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.478818",
+                            "zuobiaoY": "39.878117"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 382,
+                            "listname": "15336",
+                            "name": "孙河",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.529895",
+                            "zuobiaoY": "40.04747"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 384,
+                            "listname": "7559",
+                            "name": "团结湖",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.470198",
+                            "zuobiaoY": "39.937632"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 386,
+                            "listname": "6014",
+                            "name": "太阳宫",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.457893",
+                            "zuobiaoY": "39.977322"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 388,
+                            "listname": "6832",
+                            "name": "甜水园",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.487997",
+                            "zuobiaoY": "39.933446"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 390,
+                            "listname": "1203",
+                            "name": "望京",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.470981",
+                            "zuobiaoY": "40.003265"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 392,
+                            "listname": "7561",
+                            "name": "西坝河",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.446183",
+                            "zuobiaoY": "39.970283"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 393,
+                            "listname": "7563",
+                            "name": "小关",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.420004",
+                            "zuobiaoY": "39.98707"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 394,
+                            "listname": "6838",
+                            "name": "小红门",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.465834",
+                            "zuobiaoY": "39.840373"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 395,
+                            "listname": "1200",
+                            "name": "燕莎",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.474197",
+                            "zuobiaoY": "39.955862"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 396,
+                            "listname": "1193",
+                            "name": "亚运村",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.391584",
+                            "zuobiaoY": "39.994602"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 397,
+                            "listname": "6828",
+                            "name": "亚运村小营",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.391584",
+                            "zuobiaoY": "39.994602"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 398,
+                            "listname": "6010",
+                            "name": "姚家园",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.529458",
+                            "zuobiaoY": "39.947437"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 399,
+                            "listname": "7564",
+                            "name": "左家庄",
+                            "parentId": "1142",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.457616",
+                            "zuobiaoY": "39.955254"
+                        }
+                    ],
+                    "id": 1,
+                    "listName": "1142",
+                    "name": "朝阳",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.4967484036",
+                    "zuobiaoY": "39.932586957128"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 103,
+                            "listname": "14892",
+                            "name": "安宁庄",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.328861",
+                            "zuobiaoY": "40.050313"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 117,
+                            "listname": "1236",
+                            "name": "北京大学",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.316164",
+                            "zuobiaoY": "39.997754"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 131,
+                            "listname": "7554",
+                            "name": "北航",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.353498",
+                            "zuobiaoY": "39.987586"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 145,
+                            "listname": "5792",
+                            "name": "北太平庄",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.376408",
+                            "zuobiaoY": "39.990104"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 158,
+                            "listname": "7556",
+                            "name": "白石桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.332443",
+                            "zuobiaoY": "39.95194"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 170,
+                            "listname": "7433",
+                            "name": "北洼路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.308246",
+                            "zuobiaoY": "39.938908"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 182,
+                            "listname": "15172",
+                            "name": "厂洼",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.309868",
+                            "zuobiaoY": "39.965974"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 194,
+                            "listname": "14573",
+                            "name": "车道沟",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.300274",
+                            "zuobiaoY": "39.954895"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 205,
+                            "listname": "5981",
+                            "name": "大钟寺",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.343703",
+                            "zuobiaoY": "39.971716"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 214,
+                            "listname": "7555",
+                            "name": "定慧寺",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.28973",
+                            "zuobiaoY": "39.930243"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 223,
+                            "listname": "6817",
+                            "name": "二里庄",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.373769",
+                            "zuobiaoY": "40.001137"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 232,
+                            "listname": "15332",
+                            "name": "恩济里",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.292961",
+                            "zuobiaoY": "39.936097"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 240,
+                            "listname": "1246",
+                            "name": "甘家口",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.327157",
+                            "zuobiaoY": "39.938492"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 248,
+                            "listname": "1245",
+                            "name": "公主坟",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.200949",
+                            "zuobiaoY": "40.004817"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 255,
+                            "listname": "5977",
+                            "name": "花园桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.316719",
+                            "zuobiaoY": "39.93521"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 262,
+                            "listname": "5975",
+                            "name": "航天桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.316277",
+                            "zuobiaoY": "39.930169"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 269,
+                            "listname": "1247",
+                            "name": "海淀周边",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.239678",
+                            "zuobiaoY": "40.033162"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 275,
+                            "listname": "5985",
+                            "name": "蓟门桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.361223",
+                            "zuobiaoY": "39.973284"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 281,
+                            "listname": "12196",
+                            "name": "交通大学",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.351972",
+                            "zuobiaoY": "39.95589"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 287,
+                            "listname": "6822",
+                            "name": "军博",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.333635",
+                            "zuobiaoY": "39.912061"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 292,
+                            "listname": "15331",
+                            "name": "金沟河",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.272457",
+                            "zuobiaoY": "39.926519"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 296,
+                            "listname": "15376",
+                            "name": "联想桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.337181",
+                            "zuobiaoY": "39.973028"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 299,
+                            "listname": "6819",
+                            "name": "牡丹园",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.213768",
+                            "zuobiaoY": "40.006795"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 302,
+                            "listname": "5968",
+                            "name": "马连洼",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.293821",
+                            "zuobiaoY": "40.037015"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 305,
+                            "listname": "14756",
+                            "name": "明光桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.36105",
+                            "zuobiaoY": "39.96432"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 308,
+                            "listname": "1237",
+                            "name": "清华大学",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.328242",
+                            "zuobiaoY": "40.002632"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 311,
+                            "listname": "5791",
+                            "name": "清河",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.352635",
+                            "zuobiaoY": "40.037695"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 314,
+                            "listname": "6714",
+                            "name": "人民大学",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.321716",
+                            "zuobiaoY": "39.976123"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 317,
+                            "listname": "1238",
+                            "name": "上地",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.318649",
+                            "zuobiaoY": "40.041652"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 320,
+                            "listname": "5967",
+                            "name": "双榆树",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.332532",
+                            "zuobiaoY": "39.975438"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 323,
+                            "listname": "6717",
+                            "name": "四季青",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.258599",
+                            "zuobiaoY": "39.954929"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 326,
+                            "listname": "5982",
+                            "name": "世纪城",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.291111",
+                            "zuobiaoY": "39.965386"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 329,
+                            "listname": "5983",
+                            "name": "苏州桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.314852",
+                            "zuobiaoY": "39.967445"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 332,
+                            "listname": "6818",
+                            "name": "苏州街",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.312705",
+                            "zuobiaoY": "39.981731"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 335,
+                            "listname": "5969",
+                            "name": "田村",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.016774",
+                            "zuobiaoY": "39.932703"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 338,
+                            "listname": "5788",
+                            "name": "五道口",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.344027",
+                            "zuobiaoY": "39.998407"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 341,
+                            "listname": "1239",
+                            "name": "魏公村",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.325462",
+                            "zuobiaoY": "39.961042"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 344,
+                            "listname": "6716",
+                            "name": "万寿路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.30213",
+                            "zuobiaoY": "39.924499"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 347,
+                            "listname": "5979",
+                            "name": "五棵松",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.284114",
+                            "zuobiaoY": "39.916711"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 350,
+                            "listname": "5974",
+                            "name": "万泉河",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.307151",
+                            "zuobiaoY": "39.991264"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 353,
+                            "listname": "7553",
+                            "name": "万柳",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.305662",
+                            "zuobiaoY": "39.972746"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 355,
+                            "listname": "14575",
+                            "name": "万寿寺",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.317523",
+                            "zuobiaoY": "39.952155"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 357,
+                            "listname": "15333",
+                            "name": "五路居",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.405965",
+                            "zuobiaoY": "39.979105"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 359,
+                            "listname": "5790",
+                            "name": "西三旗",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.350151",
+                            "zuobiaoY": "40.064627"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 361,
+                            "listname": "11365",
+                            "name": "西二旗",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.319787",
+                            "zuobiaoY": "40.058091"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 363,
+                            "listname": "1241",
+                            "name": "学院路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.359651",
+                            "zuobiaoY": "39.998509"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 365,
+                            "listname": "1244",
+                            "name": "西八里庄",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.297408",
+                            "zuobiaoY": "39.940482"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 367,
+                            "listname": "6715",
+                            "name": "香山",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.208479",
+                            "zuobiaoY": "40.001175"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 369,
+                            "listname": "6924",
+                            "name": "西苑",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.764816",
+                            "zuobiaoY": "39.879552"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 371,
+                            "listname": "5787",
+                            "name": "西北旺",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.2675",
+                            "zuobiaoY": "40.05182"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 373,
+                            "listname": "14574",
+                            "name": "西山",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.179533",
+                            "zuobiaoY": "40.437748"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 375,
+                            "listname": "16082",
+                            "name": "学院路北",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.359651",
+                            "zuobiaoY": "39.998509"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 377,
+                            "listname": "15895",
+                            "name": "肖家河",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.289317",
+                            "zuobiaoY": "40.022719"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 379,
+                            "listname": "15592",
+                            "name": "玉泉路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.259674",
+                            "zuobiaoY": "39.93466"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 381,
+                            "listname": "5970",
+                            "name": "永定路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.271044",
+                            "zuobiaoY": "39.909971"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 383,
+                            "listname": "1196",
+                            "name": "中关村",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.337795",
+                            "zuobiaoY": "39.977523"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 385,
+                            "listname": "5789",
+                            "name": "知春路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.340493",
+                            "zuobiaoY": "39.982113"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 387,
+                            "listname": "7552",
+                            "name": "皂君庙",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.3453",
+                            "zuobiaoY": "39.965785"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 389,
+                            "listname": "1243",
+                            "name": "紫竹桥",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.316222",
+                            "zuobiaoY": "39.949694"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 391,
+                            "listname": "12195",
+                            "name": "增光路",
+                            "parentId": "1143",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.336943",
+                            "zuobiaoY": "39.934246"
+                        }
+                    ],
+                    "id": 2,
+                    "listName": "1143",
+                    "name": "海淀",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.32949260036",
+                    "zuobiaoY": "39.993168049981"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 104,
+                            "listname": "5817",
+                            "name": "安定门",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.429867",
+                            "zuobiaoY": "40.000114"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 118,
+                            "listname": "5818",
+                            "name": "北新桥",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.411136",
+                            "zuobiaoY": "39.959423"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 132,
+                            "listname": "5822",
+                            "name": "北京站",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.436246",
+                            "zuobiaoY": "39.911165"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 146,
+                            "listname": "1158",
+                            "name": "朝阳门",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.440191",
+                            "zuobiaoY": "39.929785"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 159,
+                            "listname": "1156",
+                            "name": "东直门",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.446724",
+                            "zuobiaoY": "39.943597"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 171,
+                            "listname": "5823",
+                            "name": "东直门外",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.447202",
+                            "zuobiaoY": "39.946652"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 183,
+                            "listname": "5820",
+                            "name": "东四十条",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.439582",
+                            "zuobiaoY": "39.939727"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 195,
+                            "listname": "6849",
+                            "name": "灯市口",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.421986",
+                            "zuobiaoY": "39.925043"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 206,
+                            "listname": "5825",
+                            "name": "东单",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.424172",
+                            "zuobiaoY": "39.916603"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 215,
+                            "listname": "5824",
+                            "name": "东四",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.429331",
+                            "zuobiaoY": "39.934867"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 224,
+                            "listname": "1161",
+                            "name": "东城周边",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.421885",
+                            "zuobiaoY": "39.938574"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 233,
+                            "listname": "1159",
+                            "name": "和平里",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.428588",
+                            "zuobiaoY": "39.960383"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 241,
+                            "listname": "6847",
+                            "name": "海运仓",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.435086",
+                            "zuobiaoY": "39.939941"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 249,
+                            "listname": "5819",
+                            "name": "交道口",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.415859",
+                            "zuobiaoY": "39.946458"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 256,
+                            "listname": "5821",
+                            "name": "建国门",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.442268",
+                            "zuobiaoY": "39.91453"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 263,
+                            "listname": "1157",
+                            "name": "景山",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.411193",
+                            "zuobiaoY": "39.932765"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 270,
+                            "listname": "6848",
+                            "name": "沙滩 ",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.367945",
+                            "zuobiaoY": "40.641287"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 276,
+                            "listname": "1160",
+                            "name": "王府井",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.418174",
+                            "zuobiaoY": "39.922351"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 282,
+                            "listname": "5816",
+                            "name": "雍和宫",
+                            "parentId": "1138",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.423765",
+                            "zuobiaoY": "39.954485"
+                        }
+                    ],
+                    "id": 3,
+                    "listName": "1138",
+                    "name": "东城",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.41493314333",
+                    "zuobiaoY": "39.927203673909"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 48,
+                            "listname": "6852",
+                            "name": "百万庄",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.349351",
+                            "zuobiaoY": "39.933569"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 62,
+                            "listname": "5804",
+                            "name": "车公庄",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.356229",
+                            "zuobiaoY": "39.938525"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 89,
+                            "listname": "5799",
+                            "name": "地安门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.402096",
+                            "zuobiaoY": "39.942057"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 101,
+                            "listname": "5795",
+                            "name": "阜成门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.361681",
+                            "zuobiaoY": "39.929361"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 115,
+                            "listname": "6041",
+                            "name": "复兴门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.359854",
+                            "zuobiaoY": "39.913661"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 157,
+                            "listname": "6040",
+                            "name": "金融街",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.36558",
+                            "zuobiaoY": "39.929379"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 169,
+                            "listname": "5805",
+                            "name": "积水潭",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.379251",
+                            "zuobiaoY": "39.95408"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 193,
+                            "listname": "5803",
+                            "name": "马甸",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.386351",
+                            "zuobiaoY": "39.981031"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 213,
+                            "listname": "1171",
+                            "name": "南礼士路",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.360164",
+                            "zuobiaoY": "39.922046"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 254,
+                            "listname": "1173",
+                            "name": "西单",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.379286",
+                            "zuobiaoY": "39.916797"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 268,
+                            "listname": "5798",
+                            "name": "新街口",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.396191",
+                            "zuobiaoY": "39.954835"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 286,
+                            "listname": "1172",
+                            "name": "月坛",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.348608",
+                            "zuobiaoY": "39.905199"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 502,
+                            "listname": "5801",
+                            "name": "德胜门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.387652",
+                            "zuobiaoY": "39.957107"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 506,
+                            "listname": "7568",
+                            "name": "官园",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.364645",
+                            "zuobiaoY": "39.937059"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 507,
+                            "listname": "1175",
+                            "name": "鼓楼",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.402296",
+                            "zuobiaoY": "39.947341"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 510,
+                            "listname": "6044",
+                            "name": "六铺炕",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.393653",
+                            "zuobiaoY": "39.962511"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 512,
+                            "listname": "6042",
+                            "name": "木樨地",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.340494",
+                            "zuobiaoY": "39.914067"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 514,
+                            "listname": "5800",
+                            "name": "什刹海",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.386771",
+                            "zuobiaoY": "39.940105"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 515,
+                            "listname": "6043",
+                            "name": "三里河",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.343316",
+                            "zuobiaoY": "39.919024"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 516,
+                            "listname": "1174",
+                            "name": "西直门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.359764",
+                            "zuobiaoY": "39.94746"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 517,
+                            "listname": "5797",
+                            "name": "西四",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.379126",
+                            "zuobiaoY": "39.932028"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 519,
+                            "listname": "6851",
+                            "name": "小西天",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.862544",
+                            "zuobiaoY": "40.720563"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 521,
+                            "listname": "5794",
+                            "name": "西便门",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.360727",
+                            "zuobiaoY": "39.905987"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 522,
+                            "listname": "1177",
+                            "name": "西城周边",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.37319",
+                            "zuobiaoY": "39.93428"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 524,
+                            "listname": "5796",
+                            "name": "展览路",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.349078",
+                            "zuobiaoY": "39.942869"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 525,
+                            "listname": "15170",
+                            "name": "真武庙",
+                            "parentId": "1139",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.353318",
+                            "zuobiaoY": "39.910339"
+                        }
+                    ],
+                    "id": 4,
+                    "listName": "1139",
+                    "name": "西城",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.37855698482",
+                    "zuobiaoY": "39.91649500246"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 44,
+                            "listname": "1180",
+                            "name": "崇文门",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.426431",
+                            "zuobiaoY": "39.903178"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 58,
+                            "listname": "6064",
+                            "name": "磁器口",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.424866",
+                            "zuobiaoY": "39.898771"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 72,
+                            "listname": "1185",
+                            "name": "崇文周边",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.424636",
+                            "zuobiaoY": "39.889292"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 85,
+                            "listname": "1182",
+                            "name": "东花市",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.43819",
+                            "zuobiaoY": "39.905225"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 97,
+                            "listname": "6853",
+                            "name": "法华寺",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.322659",
+                            "zuobiaoY": "39.957679"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 111,
+                            "listname": "6062",
+                            "name": "广渠门",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.451842",
+                            "zuobiaoY": "39.899838"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 125,
+                            "listname": "6061",
+                            "name": "光明楼",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.444721",
+                            "zuobiaoY": "39.890475"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 139,
+                            "listname": "1181",
+                            "name": "龙潭湖",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.444631",
+                            "zuobiaoY": "39.887525"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 153,
+                            "listname": "1178",
+                            "name": "前门",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.404702",
+                            "zuobiaoY": "39.904906"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 165,
+                            "listname": "1183",
+                            "name": "体育馆路",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.427545",
+                            "zuobiaoY": "39.889988"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 177,
+                            "listname": "1179",
+                            "name": "天坛",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.412885",
+                            "zuobiaoY": "39.885883"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 189,
+                            "listname": "6063",
+                            "name": "新世界",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.460385",
+                            "zuobiaoY": "39.942328"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 200,
+                            "listname": "1184",
+                            "name": "永定门",
+                            "parentId": "1140",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.405677",
+                            "zuobiaoY": "39.879157"
+                        }
+                    ],
+                    "id": 5,
+                    "listName": "1140",
+                    "name": "崇文",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.45224052045",
+                    "zuobiaoY": "39.885721968097"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 45,
+                            "listname": "5835",
+                            "name": "白纸坊",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.31842",
+                            "zuobiaoY": "39.883839"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 59,
+                            "listname": "5147",
+                            "name": "白广路",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.365837",
+                            "zuobiaoY": "39.883802"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 73,
+                            "listname": "6856",
+                            "name": "椿树街道",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.3825",
+                            "zuobiaoY": "39.905185"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 86,
+                            "listname": "5149",
+                            "name": "菜市口",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.379662",
+                            "zuobiaoY": "39.896022"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 98,
+                            "listname": "5148",
+                            "name": "大观园",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.445755",
+                            "zuobiaoY": "40.043748"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 112,
+                            "listname": "5841",
+                            "name": "大栅栏",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.402814",
+                            "zuobiaoY": "39.902236"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 126,
+                            "listname": "6858",
+                            "name": "广安门外",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.347099",
+                            "zuobiaoY": "39.895729"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 140,
+                            "listname": "6857",
+                            "name": "广安门内",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.371838",
+                            "zuobiaoY": "39.902141"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 154,
+                            "listname": "6854",
+                            "name": "红莲",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.3404",
+                            "zuobiaoY": "39.889677"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 166,
+                            "listname": "5150",
+                            "name": "虎坊桥",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.391208",
+                            "zuobiaoY": "39.895683"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 178,
+                            "listname": "5836",
+                            "name": "和平门",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.386066",
+                            "zuobiaoY": "39.907632"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 190,
+                            "listname": "5842",
+                            "name": "马连道",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.333249",
+                            "zuobiaoY": "39.889539"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 201,
+                            "listname": "6855",
+                            "name": "南菜园",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.358793",
+                            "zuobiaoY": "39.880381"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 210,
+                            "listname": "1162",
+                            "name": "牛街",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.37004",
+                            "zuobiaoY": "39.894899"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 219,
+                            "listname": "6060",
+                            "name": "天宁寺",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.352545",
+                            "zuobiaoY": "39.899973"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 228,
+                            "listname": "1163",
+                            "name": "陶然亭",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.388367",
+                            "zuobiaoY": "39.895205"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 236,
+                            "listname": "5837",
+                            "name": "天桥",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.40418",
+                            "zuobiaoY": "39.890258"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 244,
+                            "listname": "5151",
+                            "name": "宣武门",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.381491",
+                            "zuobiaoY": "39.902996"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 251,
+                            "listname": "1164",
+                            "name": "宣武周边",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.369352",
+                            "zuobiaoY": "39.891531"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 258,
+                            "listname": "5839",
+                            "name": "长椿街",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.370116",
+                            "zuobiaoY": "39.899424"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 265,
+                            "listname": "5838",
+                            "name": "珠市口",
+                            "parentId": "1141",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.404467",
+                            "zuobiaoY": "39.897704"
+                        }
+                    ],
+                    "id": 6,
+                    "listName": "1141",
+                    "name": "宣武",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.36168826073",
+                    "zuobiaoY": "39.878782980449"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 46,
+                            "listname": "6030",
+                            "name": "北大地",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.604744",
+                            "zuobiaoY": "40.580758"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 60,
+                            "listname": "6028",
+                            "name": "菜户营",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.351963",
+                            "zuobiaoY": "39.874474"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 74,
+                            "listname": "6032",
+                            "name": "草桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.643794",
+                            "zuobiaoY": "40.150453"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 87,
+                            "listname": "6029",
+                            "name": "成寿寺",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.449893",
+                            "zuobiaoY": "39.860296"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 99,
+                            "listname": "5140",
+                            "name": "东铁匠营",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.420538",
+                            "zuobiaoY": "39.865223"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 113,
+                            "listname": "5137",
+                            "name": "大红门",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.408045",
+                            "zuobiaoY": "39.848906"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 127,
+                            "listname": "5139",
+                            "name": "东高地",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.429029",
+                            "zuobiaoY": "39.80674"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 141,
+                            "listname": "5128",
+                            "name": "丰台路",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.28172",
+                            "zuobiaoY": "39.900993"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 155,
+                            "listname": "6039",
+                            "name": "丰台体育馆",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.25837",
+                            "zuobiaoY": "39.841938"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 167,
+                            "listname": "1213",
+                            "name": "方庄",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.43414",
+                            "zuobiaoY": "39.867537"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 179,
+                            "listname": "15171",
+                            "name": "丰益桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.325476",
+                            "zuobiaoY": "39.861712"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 191,
+                            "listname": "5141",
+                            "name": "丰台周边",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.25837",
+                            "zuobiaoY": "39.841938"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 202,
+                            "listname": "6038",
+                            "name": "花乡",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.336932",
+                            "zuobiaoY": "39.838067"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 211,
+                            "listname": "11454",
+                            "name": "和义",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.408353",
+                            "zuobiaoY": "39.816197"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 220,
+                            "listname": "7437",
+                            "name": "嘉园",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.37457",
+                            "zuobiaoY": "39.854284"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 229,
+                            "listname": "6860",
+                            "name": "角门",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.387305",
+                            "zuobiaoY": "39.852866"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 237,
+                            "listname": "6031",
+                            "name": "科技园区",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.303639",
+                            "zuobiaoY": "39.831449"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 245,
+                            "listname": "15548",
+                            "name": "看丹桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.292012",
+                            "zuobiaoY": "39.848183"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 252,
+                            "listname": "6022",
+                            "name": "六里桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.310321",
+                            "zuobiaoY": "39.888773"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 259,
+                            "listname": "5129",
+                            "name": "卢沟桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.225669",
+                            "zuobiaoY": "39.85583"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 266,
+                            "listname": "6037",
+                            "name": "丽泽桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.318858",
+                            "zuobiaoY": "39.873707"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 272,
+                            "listname": "6027",
+                            "name": "刘家窑",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.42101",
+                            "zuobiaoY": "39.86847"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 278,
+                            "listname": "13434",
+                            "name": "莲花池",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.006779",
+                            "zuobiaoY": "40.461057"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 284,
+                            "listname": "6025",
+                            "name": "木樨园",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.411266",
+                            "zuobiaoY": "39.864287"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 289,
+                            "listname": "5135",
+                            "name": "马家堡",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.396521",
+                            "zuobiaoY": "39.870268"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 294,
+                            "listname": "9046",
+                            "name": "南苑",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.399172",
+                            "zuobiaoY": "39.811731"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 298,
+                            "listname": "6036",
+                            "name": "蒲黄榆",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.424899",
+                            "zuobiaoY": "39.871163"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 301,
+                            "listname": "6035",
+                            "name": "青塔",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.274818",
+                            "zuobiaoY": "39.903677"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 304,
+                            "listname": "11821",
+                            "name": "七里庄",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.297588",
+                            "zuobiaoY": "39.865924"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 307,
+                            "listname": "6861",
+                            "name": "世界公园",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.293683",
+                            "zuobiaoY": "39.816702"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 310,
+                            "listname": "6859",
+                            "name": "宋家庄",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.390185",
+                            "zuobiaoY": "39.727412"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 313,
+                            "listname": "5130",
+                            "name": "太平桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.327812",
+                            "zuobiaoY": "39.899395"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 316,
+                            "listname": "11820",
+                            "name": "五里店",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.259219",
+                            "zuobiaoY": "39.865712"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 319,
+                            "listname": "6024",
+                            "name": "西客站",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.32874",
+                            "zuobiaoY": "39.900875"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 322,
+                            "listname": "5136",
+                            "name": "西罗园",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.39574",
+                            "zuobiaoY": "39.869823"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 325,
+                            "listname": "11380",
+                            "name": "新发地",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.348435",
+                            "zuobiaoY": "39.821223"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 328,
+                            "listname": "6034",
+                            "name": "岳各庄",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.089067",
+                            "zuobiaoY": "40.144721"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 331,
+                            "listname": "7567",
+                            "name": "云岗",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.167332",
+                            "zuobiaoY": "39.816971"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 334,
+                            "listname": "1212",
+                            "name": "玉泉营",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.349532",
+                            "zuobiaoY": "39.853168"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 337,
+                            "listname": "5134",
+                            "name": "右安门",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.37175",
+                            "zuobiaoY": "39.863271"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 340,
+                            "listname": "6023",
+                            "name": "洋桥",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.391149",
+                            "zuobiaoY": "39.86326"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 343,
+                            "listname": "5131",
+                            "name": "长辛店",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.21179",
+                            "zuobiaoY": "39.833137"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 346,
+                            "listname": "6026",
+                            "name": "赵公口",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.420244",
+                            "zuobiaoY": "39.862975"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 349,
+                            "listname": "6033",
+                            "name": "左安门",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.445752",
+                            "zuobiaoY": "39.877182"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 352,
+                            "listname": "15551",
+                            "name": "总部基地",
+                            "parentId": "1144",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.291417",
+                            "zuobiaoY": "39.827072"
+                        }
+                    ],
+                    "id": 7,
+                    "listName": "1144",
+                    "name": "丰台",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.3018503831",
+                    "zuobiaoY": "39.846154531036"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 47,
+                            "listname": "5811",
+                            "name": "北关",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.120934",
+                            "zuobiaoY": "40.266058"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 61,
+                            "listname": "6899",
+                            "name": "北关环岛",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.661566",
+                            "zuobiaoY": "39.943929"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 75,
+                            "listname": "6056",
+                            "name": "八里桥",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.647823",
+                            "zuobiaoY": "39.921774"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 88,
+                            "listname": "2638",
+                            "name": "八通轻轨沿线",
+                            "parentId": "1147",
+                            "xiaoquList": []
+                        },
+                        {
+                            "communityList": [],
+                            "id": 100,
+                            "listname": "14583",
+                            "name": "次渠",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.589201",
+                            "zuobiaoY": "39.813013"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 114,
+                            "listname": "7569",
+                            "name": "东关",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.266156",
+                            "zuobiaoY": "40.227634"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 128,
+                            "listname": "5808",
+                            "name": "果园",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.656072",
+                            "zuobiaoY": "39.898888"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 142,
+                            "listname": "5809",
+                            "name": "九棵树",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.63292",
+                            "zuobiaoY": "39.898468"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 156,
+                            "listname": "12210",
+                            "name": "漷县",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.800054",
+                            "zuobiaoY": "39.78573"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 168,
+                            "listname": "5144",
+                            "name": "梨园",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.171663",
+                            "zuobiaoY": "40.368772"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 180,
+                            "listname": "6055",
+                            "name": "临河里",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.687126",
+                            "zuobiaoY": "39.881031"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 192,
+                            "listname": "7438",
+                            "name": "潞城",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.73657",
+                            "zuobiaoY": "39.919878"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 203,
+                            "listname": "6051",
+                            "name": "马驹桥",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.550594",
+                            "zuobiaoY": "39.769155"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 212,
+                            "listname": "6057",
+                            "name": "乔庄",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.69297",
+                            "zuobiaoY": "39.900671"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 221,
+                            "listname": "5142",
+                            "name": "通州北苑",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.635958",
+                            "zuobiaoY": "39.911503"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 230,
+                            "listname": "5810",
+                            "name": "土桥",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.165637",
+                            "zuobiaoY": "40.100258"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 238,
+                            "listname": "5146",
+                            "name": "通州周边",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.740079",
+                            "zuobiaoY": "39.809815"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 246,
+                            "listname": "6900",
+                            "name": "武夷花园",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.701248",
+                            "zuobiaoY": "39.922309"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 253,
+                            "listname": "2639",
+                            "name": "新华大街",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.662843",
+                            "zuobiaoY": "39.923811"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 260,
+                            "listname": "5806",
+                            "name": "西门",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.649469",
+                            "zuobiaoY": "39.912655"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 267,
+                            "listname": "5145",
+                            "name": "永顺",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.656246",
+                            "zuobiaoY": "39.923478"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 273,
+                            "listname": "7439",
+                            "name": "运河大街",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.698438",
+                            "zuobiaoY": "39.897251"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 279,
+                            "listname": "5807",
+                            "name": "玉桥",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.689287",
+                            "zuobiaoY": "39.896752"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 285,
+                            "listname": "6047",
+                            "name": "中仓",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.671496",
+                            "zuobiaoY": "39.909439"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 290,
+                            "listname": "6049",
+                            "name": "张家湾",
+                            "parentId": "1147",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.256344",
+                            "zuobiaoY": "40.71837"
+                        }
+                    ],
+                    "id": 8,
+                    "listName": "1147",
+                    "name": "通州",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.66406071566",
+                    "zuobiaoY": "39.911995002226"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 32,
+                            "listname": "1228",
+                            "name": "八宝山",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.246701",
+                            "zuobiaoY": "39.914957"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 43,
+                            "listname": "5843",
+                            "name": "八角",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.205016",
+                            "zuobiaoY": "39.91896"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 57,
+                            "listname": "6070",
+                            "name": "八大处",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.206135",
+                            "zuobiaoY": "39.949862"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 71,
+                            "listname": "1229",
+                            "name": "古城",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.501581",
+                            "zuobiaoY": "40.110318"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 84,
+                            "listname": "14577",
+                            "name": "广宁",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.150997",
+                            "zuobiaoY": "39.933514"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 96,
+                            "listname": "6066",
+                            "name": "金顶街",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.175457",
+                            "zuobiaoY": "39.936117"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 110,
+                            "listname": "6065",
+                            "name": "鲁谷",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.233168",
+                            "zuobiaoY": "39.905654"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 124,
+                            "listname": "6945",
+                            "name": "老山",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.2253",
+                            "zuobiaoY": "39.916211"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 138,
+                            "listname": "6862",
+                            "name": "模式口",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.165308",
+                            "zuobiaoY": "39.939306"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 152,
+                            "listname": "1230",
+                            "name": "苹果园",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.190465",
+                            "zuobiaoY": "39.937504"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 164,
+                            "listname": "1231",
+                            "name": "石景山周边",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.184556",
+                            "zuobiaoY": "39.938867"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 176,
+                            "listname": "6068",
+                            "name": "五里坨",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.204205",
+                            "zuobiaoY": "40.681242"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 188,
+                            "listname": "6944",
+                            "name": "西山",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.179533",
+                            "zuobiaoY": "40.437748"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 199,
+                            "listname": "6865",
+                            "name": "玉泉路",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.259674",
+                            "zuobiaoY": "39.93466"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 209,
+                            "listname": "6069",
+                            "name": "永乐",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.035498",
+                            "zuobiaoY": "40.563019"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 218,
+                            "listname": "6864",
+                            "name": "衙门口",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.217208",
+                            "zuobiaoY": "39.89587"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 227,
+                            "listname": "6863",
+                            "name": "杨庄 ",
+                            "parentId": "1145",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.196644",
+                            "zuobiaoY": "39.930136"
+                        }
+                    ],
+                    "id": 9,
+                    "listName": "1145",
+                    "name": "石景山",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.22789425042",
+                    "zuobiaoY": "39.906170377314"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 1,
+                            "listname": "5833",
+                            "name": "北七家",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.440399",
+                            "zuobiaoY": "40.133741"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 2,
+                            "listname": "5832",
+                            "name": "百善",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.327321",
+                            "zuobiaoY": "40.173942"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 5,
+                            "listname": "5829",
+                            "name": "城北",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.247142",
+                            "zuobiaoY": "40.233435"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 13,
+                            "listname": "5830",
+                            "name": "城南",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.238523",
+                            "zuobiaoY": "40.219983"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 22,
+                            "listname": "7425",
+                            "name": "昌平县城",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.243055",
+                            "zuobiaoY": "40.220154"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 33,
+                            "listname": "5154",
+                            "name": "昌平周边",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.216456",
+                            "zuobiaoY": "40.221724"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 49,
+                            "listname": "6059",
+                            "name": "东小口",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.41036",
+                            "zuobiaoY": "40.065084"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 63,
+                            "listname": "5828",
+                            "name": "霍营",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.377589",
+                            "zuobiaoY": "40.085769"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 77,
+                            "listname": "2640",
+                            "name": "回龙观",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.338644",
+                            "zuobiaoY": "40.08243"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 91,
+                            "listname": "5834",
+                            "name": "立水桥",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.418542",
+                            "zuobiaoY": "40.052983"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 105,
+                            "listname": "6898",
+                            "name": "龙泽",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.330635",
+                            "zuobiaoY": "40.07754"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 119,
+                            "listname": "5152",
+                            "name": "南口",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.130951",
+                            "zuobiaoY": "40.246453"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 133,
+                            "listname": "15540",
+                            "name": "南邵镇",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.292445",
+                            "zuobiaoY": "40.214211"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 147,
+                            "listname": "5153",
+                            "name": "沙河",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.295058",
+                            "zuobiaoY": "40154693"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 160,
+                            "listname": "2641",
+                            "name": "天通苑",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.431355",
+                            "zuobiaoY": "40.070854"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 172,
+                            "listname": "5827",
+                            "name": "小汤山",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.399245",
+                            "zuobiaoY": "40.183006"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 184,
+                            "listname": "6058",
+                            "name": "阳坊",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.148342",
+                            "zuobiaoY": "40.146206"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 400,
+                            "listname": "15541",
+                            "name": "十三陵",
+                            "parentId": "1150",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.281394",
+                            "zuobiaoY": "40.25815"
+                        }
+                    ],
+                    "id": 11,
+                    "listName": "1150",
+                    "name": "昌平",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.24049928149",
+                    "zuobiaoY": "40.226477006351"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 31,
+                            "listname": "6875",
+                            "name": "滨河",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.346609",
+                            "zuobiaoY": "39.755229"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 42,
+                            "listname": "6881",
+                            "name": "大兴周边",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.425195",
+                            "zuobiaoY": "39.65279"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 56,
+                            "listname": "6876",
+                            "name": "观音寺",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.354431",
+                            "zuobiaoY": "39.734265"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 70,
+                            "listname": "16124",
+                            "name": "高米店",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.347749",
+                            "zuobiaoY": "39.771659"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 83,
+                            "listname": "6877",
+                            "name": "海子角",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.353319",
+                            "zuobiaoY": "39.722687"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 95,
+                            "listname": "7570",
+                            "name": "黄村",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.296238",
+                            "zuobiaoY": "39.78405"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 109,
+                            "listname": "6871",
+                            "name": "旧宫 ",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.453097",
+                            "zuobiaoY": "39.812387"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 123,
+                            "listname": "7426",
+                            "name": "林校路",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.340356",
+                            "zuobiaoY": "39.719098"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 137,
+                            "listname": "14578",
+                            "name": "庞各庄",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.13385",
+                            "zuobiaoY": "39.559182"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 151,
+                            "listname": "7431",
+                            "name": "清源",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.343837",
+                            "zuobiaoY": "39.749305"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 163,
+                            "listname": "6878",
+                            "name": "同兴园",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.370565",
+                            "zuobiaoY": "39.80138"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 175,
+                            "listname": "6870",
+                            "name": "西红门",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.346897",
+                            "zuobiaoY": "39.796866"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 187,
+                            "listname": "6873",
+                            "name": "兴华大街",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.338102",
+                            "zuobiaoY": "39.768943"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 198,
+                            "listname": "6874",
+                            "name": "兴丰大街",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.341844",
+                            "zuobiaoY": "39.767349"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 208,
+                            "listname": "6948",
+                            "name": "兴业大街",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.329535",
+                            "zuobiaoY": "39.749359"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 217,
+                            "listname": "13579",
+                            "name": "新宫",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.365802",
+                            "zuobiaoY": "39.820398"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 226,
+                            "listname": "6872",
+                            "name": "亦庄",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.502085",
+                            "zuobiaoY": "39.80328"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 235,
+                            "listname": "7480",
+                            "name": "郁花园",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.341791",
+                            "zuobiaoY": "39.780815"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 243,
+                            "listname": "16013",
+                            "name": "瀛海镇",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.45891",
+                            "zuobiaoY": "39.76196"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 537,
+                            "listname": "18829",
+                            "name": "生物医药基地",
+                            "parentId": "6809",
+                            "xiaoquList": [],
+                            "zuobiaoX": "0.000000",
+                            "zuobiaoY": "0.000000"
+                        }
+                    ],
+                    "id": 12,
+                    "listName": "6809",
+                    "name": "大兴",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.35354989562",
+                    "zuobiaoY": "39.732933318744"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 12,
+                            "listname": "7443",
+                            "name": "八达岭",
+                            "parentId": "6813",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.983509",
+                            "zuobiaoY": "40.367837"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 20,
+                            "listname": "6915",
+                            "name": "大榆树",
+                            "parentId": "6813",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.595506",
+                            "zuobiaoY": "40.75516"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 29,
+                            "listname": "6914",
+                            "name": "延庆城区",
+                            "parentId": "6813",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.98615",
+                            "zuobiaoY": "40.467607"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 40,
+                            "listname": "6893",
+                            "name": "延庆周边",
+                            "parentId": "6813",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.169735",
+                            "zuobiaoY": "40.545156"
+                        }
+                    ],
+                    "id": 16,
+                    "listName": "6813",
+                    "name": "延庆",
+                    "parentId": "1827",
+                    "zuobiaoX": "115.98380054187",
+                    "zuobiaoY": "40.453650685261"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 11,
+                            "listname": "7445",
+                            "name": "滨河路",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.117633",
+                            "zuobiaoY": "39.941671"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 19,
+                            "listname": "6916",
+                            "name": "金海湖",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.439544",
+                            "zuobiaoY": "40.038682"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 28,
+                            "listname": "6917",
+                            "name": "平谷城区",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.119343",
+                            "zuobiaoY": "40.151321"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 39,
+                            "listname": "6894",
+                            "name": "平谷周边",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.150433",
+                            "zuobiaoY": "40.215925"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 54,
+                            "listname": "14580",
+                            "name": "王辛庄",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.111327",
+                            "zuobiaoY": "40.179877"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 68,
+                            "listname": "14581",
+                            "name": "兴谷",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.132482",
+                            "zuobiaoY": "40.166673"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 81,
+                            "listname": "14582",
+                            "name": "渔阳",
+                            "parentId": "6814",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.122678",
+                            "zuobiaoY": "40.150976"
+                        }
+                    ],
+                    "id": 17,
+                    "listName": "6814",
+                    "name": "平谷",
+                    "parentId": "1827",
+                    "zuobiaoX": "117.11995850713",
+                    "zuobiaoY": "40.145322408241"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 530,
+                            "listname": "11362",
+                            "name": "燕郊",
+                            "parentId": "11362",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.814714",
+                            "zuobiaoY": "40.052419"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 531,
+                            "listname": "18370",
+                            "name": "潮白河",
+                            "parentId": "11362",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.77759",
+                            "zuobiaoY": "40.015233"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 532,
+                            "listname": "18371",
+                            "name": "大厂",
+                            "parentId": "11362",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.98426",
+                            "zuobiaoY": "39.877554"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 533,
+                            "listname": "18366",
+                            "name": "燕顺路",
+                            "parentId": "11362",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.797978",
+                            "zuobiaoY": "40.038545"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 534,
+                            "listname": "18367",
+                            "name": "迎宾路",
+                            "parentId": "11362",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.811934",
+                            "zuobiaoY": "40.037417"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 535,
+                            "listname": "18368",
+                            "name": "东市区",
+                            "parentId": "11362",
+                            "xiaoquList": []
+                        },
+                        {
+                            "communityList": [],
+                            "id": 536,
+                            "listname": "18369",
+                            "name": "城区",
+                            "parentId": "11362",
+                            "xiaoquList": []
+                        }
+                    ],
+                    "id": 19,
+                    "listName": "11362",
+                    "name": "燕郊",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.814714",
+                    "zuobiaoY": "40.052419"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 90,
+                            "listname": "15008",
+                            "name": "固安",
+                            "parentId": "1146",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.28967",
+                            "zuobiaoY": "39.351106"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 102,
+                            "listname": "11364",
+                            "name": "三河",
+                            "parentId": "1146",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.021284",
+                            "zuobiaoY": "39.967428"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 116,
+                            "listname": "11363",
+                            "name": "香河",
+                            "parentId": "1146",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.051306",
+                            "zuobiaoY": "39.7431"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 144,
+                            "listname": "15759",
+                            "name": "涿州",
+                            "parentId": "1146",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.999054",
+                            "zuobiaoY": "39.482482"
+                        }
+                    ],
+                    "id": 22,
+                    "listName": "1146",
+                    "name": "北京周边",
+                    "parentId": "1827",
+                    "zuobiaoX": "117.0810015878",
+                    "zuobiaoY": "39.94180419778"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 21,
+                            "listname": "6867",
+                            "name": "窦店",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.07711",
+                            "zuobiaoY": "39.66241"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 30,
+                            "listname": "11373",
+                            "name": "房山城关",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.020485",
+                            "zuobiaoY": "39.711512"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 41,
+                            "listname": "6869",
+                            "name": "房山周边",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.14167",
+                            "zuobiaoY": "39.754273"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 55,
+                            "listname": "7441",
+                            "name": "韩村河",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.960534",
+                            "zuobiaoY": "39.607865"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 69,
+                            "listname": "6866",
+                            "name": "良乡",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.144102",
+                            "zuobiaoY": "39.738721"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 82,
+                            "listname": "12178",
+                            "name": "琉璃河",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.862836",
+                            "zuobiaoY": "39.726753"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 94,
+                            "listname": "7440",
+                            "name": "阎村",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.099806",
+                            "zuobiaoY": "39.723652"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 108,
+                            "listname": "6946",
+                            "name": "迎风",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.961362",
+                            "zuobiaoY": "39.730584"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 122,
+                            "listname": "12177",
+                            "name": "燕山",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.965405",
+                            "zuobiaoY": "39.739386"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 136,
+                            "listname": "6906",
+                            "name": "长阳",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.223746",
+                            "zuobiaoY": "39.77091"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 150,
+                            "listname": "14757",
+                            "name": "周口店",
+                            "parentId": "6808",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.958473",
+                            "zuobiaoY": "39.686652"
+                        }
+                    ],
+                    "id": 23,
+                    "listName": "6808",
+                    "name": "房山",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.15336675384",
+                    "zuobiaoY": "39.741056876878"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 10,
+                            "listname": "6883",
+                            "name": "光明 ",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.444943",
+                            "zuobiaoY": "39.891227"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 18,
+                            "listname": "6882",
+                            "name": "后沙峪",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.551449",
+                            "zuobiaoY": "40.111767"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 27,
+                            "listname": "7572",
+                            "name": "机场",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.603444",
+                            "zuobiaoY": "40.088101"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 38,
+                            "listname": "12181",
+                            "name": "建新",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.722649",
+                            "zuobiaoY": "40.382365"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 53,
+                            "listname": "6886",
+                            "name": "李桥",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.723348",
+                            "zuobiaoY": "40.04624"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 67,
+                            "listname": "7432",
+                            "name": "马坡",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.654968",
+                            "zuobiaoY": "40.175911"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 80,
+                            "listname": "6888",
+                            "name": "南彩",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.742843",
+                            "zuobiaoY": "40.139053"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 93,
+                            "listname": "7571",
+                            "name": "胜利",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.708342",
+                            "zuobiaoY": "40.377673"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 107,
+                            "listname": "6884",
+                            "name": "石园",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.671107",
+                            "zuobiaoY": "40.118095"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 121,
+                            "listname": "11353",
+                            "name": "顺义城区",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.659633",
+                            "zuobiaoY": "40.134702"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 135,
+                            "listname": "6889",
+                            "name": "顺义周边",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.728229",
+                            "zuobiaoY": "40.154951"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 149,
+                            "listname": "6885",
+                            "name": "天竺",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.585683",
+                            "zuobiaoY": "40.064335"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 162,
+                            "listname": "6887",
+                            "name": "新国展",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.552184",
+                            "zuobiaoY": "40.084556"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 174,
+                            "listname": "12180",
+                            "name": "裕龙",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.304673",
+                            "zuobiaoY": "39.928289"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 186,
+                            "listname": "11452",
+                            "name": "杨镇",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.836417",
+                            "zuobiaoY": "40.158273"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 197,
+                            "listname": "12182",
+                            "name": "中央别墅区",
+                            "parentId": "6810",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.543552",
+                            "zuobiaoY": "40.072926"
+                        }
+                    ],
+                    "id": 24,
+                    "listName": "6810",
+                    "name": "顺义",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.65838840393",
+                    "zuobiaoY": "40.132941085666"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 9,
+                            "listname": "6907",
+                            "name": "不老屯",
+                            "parentId": "6811",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.983693",
+                            "zuobiaoY": "40.57329"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 17,
+                            "listname": "6913",
+                            "name": "密云城区",
+                            "parentId": "6811",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.855145",
+                            "zuobiaoY": "40.38073"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 26,
+                            "listname": "6891",
+                            "name": "密云周边",
+                            "parentId": "6811",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.001201",
+                            "zuobiaoY": "40.532843"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 37,
+                            "listname": "6908",
+                            "name": "溪翁庄",
+                            "parentId": "6811",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.860223",
+                            "zuobiaoY": "40.481053"
+                        }
+                    ],
+                    "id": 25,
+                    "listName": "6811",
+                    "name": "密云",
+                    "parentId": "1827",
+                    "zuobiaoX": "117.03770006424",
+                    "zuobiaoY": "40.475919949784"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 8,
+                            "listname": "6911",
+                            "name": "渤海镇",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.570133",
+                            "zuobiaoY": "40.437341"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 16,
+                            "listname": "6910",
+                            "name": "怀柔城区",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.642588",
+                            "zuobiaoY": "40.330441"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 25,
+                            "listname": "6892",
+                            "name": "怀柔周边",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.593408",
+                            "zuobiaoY": "40.638139"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 36,
+                            "listname": "14579",
+                            "name": "庙城",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.638176",
+                            "zuobiaoY": "40.298522"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 52,
+                            "listname": "6912",
+                            "name": "桥梓",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.583206",
+                            "zuobiaoY": "40.2979"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 66,
+                            "listname": "6909",
+                            "name": "雁栖",
+                            "parentId": "6812",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.678733",
+                            "zuobiaoY": "40.377286"
+                        }
+                    ],
+                    "id": 26,
+                    "listName": "6812",
+                    "name": "怀柔",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.63981686259",
+                    "zuobiaoY": "40.32270915535"
+                },
+                {
+                    "bussinessareaList": [
+                        {
+                            "id": 0,
+                            "name": "不限"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 4,
+                            "listname": "6896",
+                            "name": "城子街道 ",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.107002",
+                            "zuobiaoY": "39.957341"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 7,
+                            "listname": "6895",
+                            "name": "大峪",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "117.466211",
+                            "zuobiaoY": "40.014655"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 15,
+                            "listname": "6918",
+                            "name": "东辛房",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.080363",
+                            "zuobiaoY": "39.940403"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 24,
+                            "listname": "6920",
+                            "name": "军庄",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.861576",
+                            "zuobiaoY": "39.702015"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 35,
+                            "listname": "7444",
+                            "name": "龙泉",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.104122",
+                            "zuobiaoY": "39.950294"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 51,
+                            "listname": "6897",
+                            "name": "门头沟周边",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "115.795795",
+                            "zuobiaoY": "40.000893"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 65,
+                            "listname": "6922",
+                            "name": "潭柘寺",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.037824",
+                            "zuobiaoY": "39.882643"
+                        },
+                        {
+                            "communityList": [],
+                            "id": 79,
+                            "listname": "6919",
+                            "name": "永定",
+                            "parentId": "6815",
+                            "xiaoquList": [],
+                            "zuobiaoX": "116.116471",
+                            "zuobiaoY": "39.911101"
+                        }
+                    ],
+                    "id": 27,
+                    "listName": "6815",
+                    "name": "门头沟",
+                    "parentId": "1827",
+                    "zuobiaoX": "116.10951538586",
+                    "zuobiaoY": "39.942110426576"
+                }
+            ]
+        }
+    ]
+}

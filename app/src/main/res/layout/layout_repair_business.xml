@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_choose_show"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/tv_intermediary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:gravity="center"
+        android:text="@string/application_string_text_mediation"
+        android:textColor="@color/relse_entrust_cooperation_prompt"
+        android:textSize="@dimen/application_font_size_one" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:src="@drawable/details_tabling_line" />
+
+    <TextView
+        android:id="@+id/tv_cooperation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:gravity="center"
+        android:text="@string/application_string_clean_keeping"
+        android:textColor="@color/relse_entrust_cooperation_prompt"
+        android:textSize="@dimen/application_font_size_one" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:src="@drawable/details_tabling_line" />
+
+    <TextView
+        android:id="@+id/tv_move"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:gravity="center"
+        android:text="@string/application_string_text_move"
+        android:textColor="@color/relse_entrust_cooperation_prompt"
+        android:textSize="@dimen/application_font_size_one" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:src="@drawable/details_tabling_line" />
+
+    <TextView
+        android:id="@+id/tv_maintenance"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:gravity="center"
+        android:text="@string/application_string_maintenance"
+        android:textColor="@color/relse_entrust_cooperation_prompt"
+        android:textSize="@dimen/application_font_size_one" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/application_font_size_left"
+        android:src="@drawable/details_tabling_line" />
+
+</LinearLayout>

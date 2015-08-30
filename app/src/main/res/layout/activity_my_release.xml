@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/my_release_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea" >
+
+        <ImageView
+            android:id="@+id/my_release_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的发布"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/my_two_text_width_map" />
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/my_release_rg"
+        android:layout_below="@+id/my_release_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/my_release_rb1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="二手房"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/my_release_rb2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="个人出租"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/my_release_rb3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="熊猫合租"
+            android:checked="true"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/my_release_rb4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="精准求组"
+            android:gravity="center"/>
+    </RadioGroup>
+    <ListView
+        android:layout_below="@+id/my_release_rg"
+        android:id="@+id/my_release_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+    <RelativeLayout
+        android:layout_below="@+id/my_release_rg"
+        android:id="@+id/my_release_empty_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:textColor="#999999"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="你暂时还没有发布该类信息！！！"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

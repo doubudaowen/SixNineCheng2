@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top" >
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="@dimen/my_one_text_width" />
+
+        <EditText
+            android:layout_marginLeft="@dimen/entrust_left_house"
+            android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="10"
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColorHint="@color/hidden"
+            android:textSize="@dimen/my_one_text_width" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top" >
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="手机"
+            android:textSize="@dimen/my_one_text_width" />
+
+        <EditText
+             android:layout_marginLeft="@dimen/entrust_left_house"
+            android:inputType="number"
+            android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="11"
+            android:id="@+id/et_way"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColorHint="@color/color_four_text"
+            android:textSize="@dimen/my_one_text_width" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top" >
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="小区"
+            android:textSize="@dimen/my_one_text_width" />
+
+        <EditText
+             android:layout_marginLeft="@dimen/entrust_left_house"
+            android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="15"
+            android:id="@+id/et_position"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColorHint="@color/hidden"
+            android:textSize="@dimen/my_one_text_width" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top" >
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="户型"
+            android:textSize="@dimen/my_one_text_width" />
+        <EditText
+             android:layout_marginLeft="@dimen/entrust_left_house"
+            android:inputType="number"
+            android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="1"
+            android:id="@+id/et_num"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColorHint="@color/hidden"
+            android:textSize="@dimen/my_one_text_width" />
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginRight="15dp"
+            android:id="@+id/tv_house"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="室"
+            android:textSize="@dimen/my_one_text_width" />
+        
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top" >
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="面积"
+            android:textSize="@dimen/my_one_text_width" />
+        <EditText
+             android:layout_marginLeft="@dimen/entrust_left_house"
+            android:inputType="number"
+            android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="7"
+            android:id="@+id/et_num_area"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColorHint="@color/hidden"
+            android:textSize="@dimen/my_one_text_width" />
+
+        <TextView
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            android:layout_marginRight="15dp"
+            android:id="@+id/tv_house_area"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="平方"
+            android:textSize="@dimen/my_one_text_width" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+</LinearLayout>

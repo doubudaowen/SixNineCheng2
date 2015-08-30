@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="translucent_background">#60000000</color>
+    <color name="hidden">#EEEEEE</color>
+    <color name="hidden_search">#CCCCCC</color>
+    <color name="hidden_search_word">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="page_color">#51c0ea</color>
+    <color name="page_color_house">#43b022</color>
+    <color name="page_font">#0081c3</color>
+    
+    <color name="update_color">#FF0000</color>
+    
+    <color name="my_color">#999999</color>
+    <color name="text_color">#66c6f2</color>
+    
+    <color name="color_one">#75c55d</color>
+    <color name="color_two">#666666</color>
+    <color name="color_four">#c2191f</color>
+    <color name="color_four_one">#4eb2e0</color>
+    <color name="color_four_text">#9f9fa0</color>
+    <color name="color_nn">#999999</color>
+    <!-- 房源列表 -->
+    <color name="house_item_color">#66c6f2</color>
+    
+    <color name="delete_color">#e51c3c</color>
+    
+    <!--  发布房源 委托 合作申请-->
+    <color name="relse_entrust_cooperation_prompt">#999999</color>
+    <color name="relse_entrust_cooperation_show">#333333</color>
+    
+</resources>

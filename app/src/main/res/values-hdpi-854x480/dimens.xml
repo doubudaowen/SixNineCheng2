@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="home_Line_spacing">5dp</dimen>
+    <!--启动页高度  -->
+    <dimen name="welcome_top">400dp</dimen>
+    <!--字体的大小  -->
+    <dimen name="home_text_size_font_my">16sp</dimen>
+
+    <dimen name="home_text_top_one">6dp</dimen>
+
+    <dimen name="home_gridView_height">200.0dp</dimen>
+
+    <dimen name="scroll">60dp</dimen>
+
+    <dimen name="iv_width">153dp</dimen>
+
+    <dimen name="iv_margin">15dp</dimen>
+
+    <dimen name="home_top">10dp</dimen>
+    <dimen name="home_bot">10dp</dimen>
+</resources>

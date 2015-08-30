@@ -1,0 +1,14 @@
+E:\last2\10\SixNineCheng2\app\build\intermediates\classes\debug
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-fef50f0f39e0f9c8ba5a5c420dca4371e045c8bd.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina-c50bd6ddb91d404f71beedc62597516763ba117a.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3-241541b41f46eac784f37309560a7586eb0b5097.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-23ad7c255b8c86ff69564d015caffc5bfd414667.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\libammsdk-8c15e406bcf901b4f24eefefdb73e7ae55ad39d7.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\volley-8978d92c215e77d1f5ef119149a7f9f71474077c.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\gson-2.2.4-5055e8ecd8354ccf84c9d0b9e41dfbed08641bd4.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-57260f4109e2987018424a571dbb18052f8d1007.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\xUtils-2.5.5-6ec912964e1fc9208f883082681a4b24af140593.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\umeng_social_sdk-b84c871c2b93fe5cd4df6a323b5170816e871fbb.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\classes-112061b5c3381edc8930d07e578f8d1dbf486b39.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\classes-e8158c8b93cf97381b17ae117d31e336e4aa5b92.jar
+E:\last2\10\SixNineCheng2\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-e6103f816b6e44de8e7497353e81dc3c338ddd55.jar

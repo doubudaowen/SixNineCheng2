@@ -1,0 +1,2092 @@
+[
+    {
+        "city": [
+            {
+                "provinceCityId": 19,
+                "provinceCityName": "黄浦区"
+            },
+            {
+                "provinceCityId": 20,
+                "provinceCityName": "卢湾区"
+            },
+            {
+                "provinceCityId": 21,
+                "provinceCityName": "徐汇区"
+            },
+            {
+                "provinceCityId": 22,
+                "provinceCityName": "长宁区"
+            },
+            {
+                "provinceCityId": 23,
+                "provinceCityName": "静安区"
+            },
+            {
+                "provinceCityId": 24,
+                "provinceCityName": "普陀区"
+            },
+            {
+                "provinceCityId": 25,
+                "provinceCityName": "闸北区"
+            },
+            {
+                "provinceCityId": 26,
+                "provinceCityName": "虹口区"
+            },
+            {
+                "provinceCityId": 27,
+                "provinceCityName": "杨浦区"
+            },
+            {
+                "provinceCityId": 28,
+                "provinceCityName": "闵行区"
+            },
+            {
+                "provinceCityId": 29,
+                "provinceCityName": "宝山区"
+            },
+            {
+                "provinceCityId": 30,
+                "provinceCityName": "嘉定区"
+            },
+            {
+                "provinceCityId": 31,
+                "provinceCityName": "浦东新区"
+            },
+            {
+                "provinceCityId": 32,
+                "provinceCityName": "金山区"
+            },
+            {
+                "provinceCityId": 33,
+                "provinceCityName": "松江区"
+            },
+            {
+                "provinceCityId": 34,
+                "provinceCityName": "青浦区"
+            },
+            {
+                "provinceCityId": 35,
+                "provinceCityName": "南汇区"
+            },
+            {
+                "provinceCityId": 36,
+                "provinceCityName": "奉贤区"
+            },
+            {
+                "provinceCityId": 37,
+                "provinceCityName": "崇明县"
+            }
+        ],
+        "provinceName": "上海市"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 378,
+                "provinceCityName": "昆明市"
+            },
+            {
+                "provinceCityId": 379,
+                "provinceCityName": "曲靖市"
+            },
+            {
+                "provinceCityId": 380,
+                "provinceCityName": "玉溪市"
+            },
+            {
+                "provinceCityId": 381,
+                "provinceCityName": "保山市"
+            },
+            {
+                "provinceCityId": 382,
+                "provinceCityName": "昭通市"
+            },
+            {
+                "provinceCityId": 383,
+                "provinceCityName": "丽江市"
+            },
+            {
+                "provinceCityId": 384,
+                "provinceCityName": "思茅市"
+            },
+            {
+                "provinceCityId": 385,
+                "provinceCityName": "临沧市"
+            },
+            {
+                "provinceCityId": 386,
+                "provinceCityName": "楚雄彝族自治州"
+            },
+            {
+                "provinceCityId": 387,
+                "provinceCityName": "红河哈尼族彝族自治州"
+            },
+            {
+                "provinceCityId": 388,
+                "provinceCityName": "文山壮族苗族自治州"
+            },
+            {
+                "provinceCityId": 389,
+                "provinceCityName": "西双版纳傣族自治州"
+            },
+            {
+                "provinceCityId": 390,
+                "provinceCityName": "大理白族自治州"
+            },
+            {
+                "provinceCityId": 391,
+                "provinceCityName": "德宏傣族景颇族自治州"
+            },
+            {
+                "provinceCityId": 392,
+                "provinceCityName": "怒江傈僳族自治州"
+            },
+            {
+                "provinceCityId": 393,
+                "provinceCityName": "迪庆藏族自治州"
+            }
+        ],
+        "provinceName": "云南省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 424,
+                "provinceCityName": "呼和浩特市"
+            },
+            {
+                "provinceCityId": 425,
+                "provinceCityName": "包头市"
+            },
+            {
+                "provinceCityId": 426,
+                "provinceCityName": "乌海市"
+            },
+            {
+                "provinceCityId": 427,
+                "provinceCityName": "赤峰市"
+            },
+            {
+                "provinceCityId": 428,
+                "provinceCityName": "通辽市"
+            },
+            {
+                "provinceCityId": 429,
+                "provinceCityName": "鄂尔多斯市"
+            },
+            {
+                "provinceCityId": 430,
+                "provinceCityName": "呼伦贝尔市"
+            },
+            {
+                "provinceCityId": 431,
+                "provinceCityName": "巴彦淖尔市"
+            },
+            {
+                "provinceCityId": 432,
+                "provinceCityName": "乌兰察布市"
+            },
+            {
+                "provinceCityId": 433,
+                "provinceCityName": "兴安盟市"
+            },
+            {
+                "provinceCityId": 434,
+                "provinceCityName": "锡林郭勒盟市"
+            },
+            {
+                "provinceCityId": 435,
+                "provinceCityName": "阿拉善盟市"
+            }
+        ],
+        "provinceName": "内蒙古自治区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 1,
+                "provinceCityName": "东城区"
+            },
+            {
+                "provinceCityId": 2,
+                "provinceCityName": "西城区"
+            },
+            {
+                "provinceCityId": 3,
+                "provinceCityName": "崇文区"
+            },
+            {
+                "provinceCityId": 4,
+                "provinceCityName": "宣武区"
+            },
+            {
+                "provinceCityId": 5,
+                "provinceCityName": "朝阳区"
+            },
+            {
+                "provinceCityId": 6,
+                "provinceCityName": "丰台区"
+            },
+            {
+                "provinceCityId": 7,
+                "provinceCityName": "石景山区"
+            },
+            {
+                "provinceCityId": 8,
+                "provinceCityName": "海淀区"
+            },
+            {
+                "provinceCityId": 9,
+                "provinceCityName": "门头沟区"
+            },
+            {
+                "provinceCityId": 10,
+                "provinceCityName": "房山区"
+            },
+            {
+                "provinceCityId": 11,
+                "provinceCityName": "通州区"
+            },
+            {
+                "provinceCityId": 12,
+                "provinceCityName": "顺义区"
+            },
+            {
+                "provinceCityId": 13,
+                "provinceCityName": "昌平区"
+            },
+            {
+                "provinceCityId": 14,
+                "provinceCityName": "大兴区"
+            },
+            {
+                "provinceCityId": 15,
+                "provinceCityName": "怀柔区"
+            },
+            {
+                "provinceCityId": 16,
+                "provinceCityName": "平谷区"
+            },
+            {
+                "provinceCityId": 17,
+                "provinceCityName": "密云县"
+            },
+            {
+                "provinceCityId": 18,
+                "provinceCityName": "延庆县"
+            }
+        ],
+        "provinceName": "北京市"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 236,
+                "provinceCityName": "台北市"
+            },
+            {
+                "provinceCityId": 237,
+                "provinceCityName": "高雄市"
+            },
+            {
+                "provinceCityId": 238,
+                "provinceCityName": "基隆市"
+            },
+            {
+                "provinceCityId": 239,
+                "provinceCityName": "台中市"
+            },
+            {
+                "provinceCityId": 240,
+                "provinceCityName": "台南市"
+            },
+            {
+                "provinceCityId": 241,
+                "provinceCityName": "新竹市"
+            },
+            {
+                "provinceCityId": 242,
+                "provinceCityName": "嘉义市"
+            }
+        ],
+        "provinceName": "台湾"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 109,
+                "provinceCityName": "长春市"
+            },
+            {
+                "provinceCityId": 110,
+                "provinceCityName": "吉林市"
+            },
+            {
+                "provinceCityId": 111,
+                "provinceCityName": "四平市"
+            },
+            {
+                "provinceCityId": 112,
+                "provinceCityName": "辽源市"
+            },
+            {
+                "provinceCityId": 113,
+                "provinceCityName": "通化市"
+            },
+            {
+                "provinceCityId": 114,
+                "provinceCityName": "白山市"
+            },
+            {
+                "provinceCityId": 115,
+                "provinceCityName": "松原市"
+            },
+            {
+                "provinceCityId": 116,
+                "provinceCityName": "白城市"
+            },
+            {
+                "provinceCityId": 117,
+                "provinceCityName": "延边朝鲜族自治州"
+            }
+        ],
+        "provinceName": "吉林省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 403,
+                "provinceCityName": "成都市"
+            },
+            {
+                "provinceCityId": 404,
+                "provinceCityName": "自贡市"
+            },
+            {
+                "provinceCityId": 405,
+                "provinceCityName": "攀枝花市"
+            },
+            {
+                "provinceCityId": 406,
+                "provinceCityName": "泸州市"
+            },
+            {
+                "provinceCityId": 407,
+                "provinceCityName": "德阳市"
+            },
+            {
+                "provinceCityId": 408,
+                "provinceCityName": "绵阳市"
+            },
+            {
+                "provinceCityId": 409,
+                "provinceCityName": "广元市"
+            },
+            {
+                "provinceCityId": 410,
+                "provinceCityName": "遂宁市"
+            },
+            {
+                "provinceCityId": 411,
+                "provinceCityName": "内江市"
+            },
+            {
+                "provinceCityId": 412,
+                "provinceCityName": "乐山市"
+            },
+            {
+                "provinceCityId": 413,
+                "provinceCityName": "南充市"
+            },
+            {
+                "provinceCityId": 414,
+                "provinceCityName": "眉山市"
+            },
+            {
+                "provinceCityId": 415,
+                "provinceCityName": "宜宾市"
+            },
+            {
+                "provinceCityId": 416,
+                "provinceCityName": "广安市"
+            },
+            {
+                "provinceCityId": 417,
+                "provinceCityName": "达州市"
+            },
+            {
+                "provinceCityId": 418,
+                "provinceCityName": "雅安市"
+            },
+            {
+                "provinceCityId": 419,
+                "provinceCityName": "巴中市"
+            },
+            {
+                "provinceCityId": 420,
+                "provinceCityName": "资阳市"
+            },
+            {
+                "provinceCityId": 421,
+                "provinceCityName": "阿坝藏族羌族自治州"
+            },
+            {
+                "provinceCityId": 422,
+                "provinceCityName": "甘孜藏族自治州"
+            },
+            {
+                "provinceCityId": 423,
+                "provinceCityName": "凉山彝族自治州"
+            }
+        ],
+        "provinceName": "四川省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 38,
+                "provinceCityName": "和平区"
+            },
+            {
+                "provinceCityId": 39,
+                "provinceCityName": "河东区"
+            },
+            {
+                "provinceCityId": 40,
+                "provinceCityName": "河西区"
+            },
+            {
+                "provinceCityId": 41,
+                "provinceCityName": "南开区"
+            },
+            {
+                "provinceCityId": 42,
+                "provinceCityName": "河北区"
+            },
+            {
+                "provinceCityId": 43,
+                "provinceCityName": "红桥区"
+            },
+            {
+                "provinceCityId": 44,
+                "provinceCityName": "塘沽区"
+            },
+            {
+                "provinceCityId": 45,
+                "provinceCityName": "汉沽区"
+            },
+            {
+                "provinceCityId": 46,
+                "provinceCityName": "大港区"
+            },
+            {
+                "provinceCityId": 47,
+                "provinceCityName": "东丽区"
+            },
+            {
+                "provinceCityId": 48,
+                "provinceCityName": "西青区"
+            },
+            {
+                "provinceCityId": 49,
+                "provinceCityName": "津南区"
+            },
+            {
+                "provinceCityId": 50,
+                "provinceCityName": "北辰区"
+            },
+            {
+                "provinceCityId": 51,
+                "provinceCityName": "武清区"
+            },
+            {
+                "provinceCityId": 52,
+                "provinceCityName": "宝坻区"
+            },
+            {
+                "provinceCityId": 53,
+                "provinceCityName": "宁河县"
+            },
+            {
+                "provinceCityId": 54,
+                "provinceCityName": "静海县"
+            },
+            {
+                "provinceCityId": 55,
+                "provinceCityName": "蓟县"
+            }
+        ],
+        "provinceName": "天津市"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 436,
+                "provinceCityName": "银川市"
+            },
+            {
+                "provinceCityId": 437,
+                "provinceCityName": "石嘴山市"
+            },
+            {
+                "provinceCityId": 438,
+                "provinceCityName": "吴忠市"
+            },
+            {
+                "provinceCityId": 439,
+                "provinceCityName": "固原市"
+            },
+            {
+                "provinceCityId": 440,
+                "provinceCityName": "中卫市"
+            }
+        ],
+        "provinceName": "宁夏回族自治区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 463,
+                "provinceCityName": "合肥市"
+            },
+            {
+                "provinceCityId": 464,
+                "provinceCityName": "芜湖市"
+            },
+            {
+                "provinceCityId": 465,
+                "provinceCityName": "蚌埠市"
+            },
+            {
+                "provinceCityId": 466,
+                "provinceCityName": "淮南市"
+            },
+            {
+                "provinceCityId": 467,
+                "provinceCityName": "马鞍山市"
+            },
+            {
+                "provinceCityId": 468,
+                "provinceCityName": "淮北市"
+            },
+            {
+                "provinceCityId": 469,
+                "provinceCityName": "铜陵市"
+            },
+            {
+                "provinceCityId": 470,
+                "provinceCityName": "安庆市"
+            },
+            {
+                "provinceCityId": 471,
+                "provinceCityName": "黄山市"
+            },
+            {
+                "provinceCityId": 472,
+                "provinceCityName": "滁州市"
+            },
+            {
+                "provinceCityId": 473,
+                "provinceCityName": "阜阳市"
+            },
+            {
+                "provinceCityId": 474,
+                "provinceCityName": "宿州市"
+            },
+            {
+                "provinceCityId": 475,
+                "provinceCityName": "巢湖市"
+            },
+            {
+                "provinceCityId": 476,
+                "provinceCityName": "六安市"
+            },
+            {
+                "provinceCityId": 477,
+                "provinceCityName": "亳州市"
+            },
+            {
+                "provinceCityId": 478,
+                "provinceCityName": "池州市"
+            },
+            {
+                "provinceCityId": 479,
+                "provinceCityName": "宣城市"
+            }
+        ],
+        "provinceName": "安徽省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 133,
+                "provinceCityName": "济南市"
+            },
+            {
+                "provinceCityId": 134,
+                "provinceCityName": "青岛市"
+            },
+            {
+                "provinceCityId": 135,
+                "provinceCityName": "淄博市"
+            },
+            {
+                "provinceCityId": 136,
+                "provinceCityName": "枣庄市"
+            },
+            {
+                "provinceCityId": 137,
+                "provinceCityName": "东营市"
+            },
+            {
+                "provinceCityId": 138,
+                "provinceCityName": "烟台市"
+            },
+            {
+                "provinceCityId": 139,
+                "provinceCityName": "潍坊市"
+            },
+            {
+                "provinceCityId": 140,
+                "provinceCityName": "济宁市"
+            },
+            {
+                "provinceCityId": 141,
+                "provinceCityName": "泰安市"
+            },
+            {
+                "provinceCityId": 142,
+                "provinceCityName": "威海市"
+            },
+            {
+                "provinceCityId": 143,
+                "provinceCityName": "日照市"
+            },
+            {
+                "provinceCityId": 144,
+                "provinceCityName": "莱芜市"
+            },
+            {
+                "provinceCityId": 145,
+                "provinceCityName": "临沂市"
+            },
+            {
+                "provinceCityId": 146,
+                "provinceCityName": "德州市"
+            },
+            {
+                "provinceCityId": 147,
+                "provinceCityName": "聊城市"
+            },
+            {
+                "provinceCityId": 148,
+                "provinceCityName": "滨州市"
+            },
+            {
+                "provinceCityId": 149,
+                "provinceCityName": "菏泽市"
+            }
+        ],
+        "provinceName": "山东省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 150,
+                "provinceCityName": "太原市"
+            },
+            {
+                "provinceCityId": 151,
+                "provinceCityName": "大同市"
+            },
+            {
+                "provinceCityId": 152,
+                "provinceCityName": "阳泉市"
+            },
+            {
+                "provinceCityId": 153,
+                "provinceCityName": "长治市"
+            },
+            {
+                "provinceCityId": 154,
+                "provinceCityName": "晋城市"
+            },
+            {
+                "provinceCityId": 155,
+                "provinceCityName": "朔州市"
+            },
+            {
+                "provinceCityId": 156,
+                "provinceCityName": "晋中市"
+            },
+            {
+                "provinceCityId": 157,
+                "provinceCityName": "运城市"
+            },
+            {
+                "provinceCityId": 158,
+                "provinceCityName": "忻州市"
+            },
+            {
+                "provinceCityId": 159,
+                "provinceCityName": "临汾市"
+            },
+            {
+                "provinceCityId": 160,
+                "provinceCityName": "吕梁市"
+            }
+        ],
+        "provinceName": "山西省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 343,
+                "provinceCityName": "广州市"
+            },
+            {
+                "provinceCityId": 344,
+                "provinceCityName": "韶关市"
+            },
+            {
+                "provinceCityId": 345,
+                "provinceCityName": "深圳市"
+            },
+            {
+                "provinceCityId": 346,
+                "provinceCityName": "珠海市"
+            },
+            {
+                "provinceCityId": 347,
+                "provinceCityName": "汕头市"
+            },
+            {
+                "provinceCityId": 348,
+                "provinceCityName": "佛山市"
+            },
+            {
+                "provinceCityId": 349,
+                "provinceCityName": "江门市"
+            },
+            {
+                "provinceCityId": 350,
+                "provinceCityName": "湛江市"
+            },
+            {
+                "provinceCityId": 351,
+                "provinceCityName": "茂名市"
+            },
+            {
+                "provinceCityId": 352,
+                "provinceCityName": "肇庆市"
+            },
+            {
+                "provinceCityId": 353,
+                "provinceCityName": "惠州市"
+            },
+            {
+                "provinceCityId": 354,
+                "provinceCityName": "梅州市"
+            },
+            {
+                "provinceCityId": 355,
+                "provinceCityName": "汕尾市"
+            },
+            {
+                "provinceCityId": 356,
+                "provinceCityName": "河源市"
+            },
+            {
+                "provinceCityId": 357,
+                "provinceCityName": "阳江市"
+            },
+            {
+                "provinceCityId": 358,
+                "provinceCityName": "清远市"
+            },
+            {
+                "provinceCityId": 359,
+                "provinceCityName": "东莞市"
+            },
+            {
+                "provinceCityId": 360,
+                "provinceCityName": "中山市"
+            },
+            {
+                "provinceCityId": 361,
+                "provinceCityName": "潮州"
+            },
+            {
+                "provinceCityId": 362,
+                "provinceCityName": "揭阳市"
+            },
+            {
+                "provinceCityId": 363,
+                "provinceCityName": "云浮市"
+            }
+        ],
+        "provinceName": "广东省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 364,
+                "provinceCityName": "南宁市"
+            },
+            {
+                "provinceCityId": 365,
+                "provinceCityName": "柳州市"
+            },
+            {
+                "provinceCityId": 366,
+                "provinceCityName": "桂林市"
+            },
+            {
+                "provinceCityId": 367,
+                "provinceCityName": "梧州市"
+            },
+            {
+                "provinceCityId": 368,
+                "provinceCityName": "北海市"
+            },
+            {
+                "provinceCityId": 369,
+                "provinceCityName": "防城港市"
+            },
+            {
+                "provinceCityId": 370,
+                "provinceCityName": "钦州市"
+            },
+            {
+                "provinceCityId": 371,
+                "provinceCityName": "贵港市"
+            },
+            {
+                "provinceCityId": 372,
+                "provinceCityName": "玉林市"
+            },
+            {
+                "provinceCityId": 373,
+                "provinceCityName": "百色市"
+            },
+            {
+                "provinceCityId": 374,
+                "provinceCityName": "贺州市"
+            },
+            {
+                "provinceCityId": 375,
+                "provinceCityName": "河池市"
+            },
+            {
+                "provinceCityId": 376,
+                "provinceCityName": "来宾市"
+            },
+            {
+                "provinceCityId": 377,
+                "provinceCityName": "崇左市"
+            }
+        ],
+        "provinceName": "广西壮族自治区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 246,
+                "provinceCityName": "乌鲁木齐市"
+            },
+            {
+                "provinceCityId": 247,
+                "provinceCityName": "克拉玛依市"
+            },
+            {
+                "provinceCityId": 248,
+                "provinceCityName": "吐鲁番地区"
+            },
+            {
+                "provinceCityId": 249,
+                "provinceCityName": "哈密地区"
+            },
+            {
+                "provinceCityId": 253,
+                "provinceCityName": "昌吉回族自治州"
+            },
+            {
+                "provinceCityId": 254,
+                "provinceCityName": "博尔塔拉蒙古自治州"
+            },
+            {
+                "provinceCityId": 255,
+                "provinceCityName": "巴音郭楞蒙古自治州"
+            },
+            {
+                "provinceCityId": 256,
+                "provinceCityName": "阿克苏地区"
+            },
+            {
+                "provinceCityId": 257,
+                "provinceCityName": "克孜勒苏柯尔克孜自治州"
+            },
+            {
+                "provinceCityId": 258,
+                "provinceCityName": "喀什地区"
+            },
+            {
+                "provinceCityId": 259,
+                "provinceCityName": "和田地区"
+            },
+            {
+                "provinceCityId": 260,
+                "provinceCityName": "伊犁哈萨克自治州"
+            },
+            {
+                "provinceCityId": 261,
+                "provinceCityName": "塔城地区"
+            },
+            {
+                "provinceCityId": 262,
+                "provinceCityName": "阿勒泰地区"
+            },
+            {
+                "provinceCityId": 263,
+                "provinceCityName": "石河子市"
+            },
+            {
+                "provinceCityId": 264,
+                "provinceCityName": "阿拉尔市"
+            },
+            {
+                "provinceCityId": 265,
+                "provinceCityName": "图木舒克市"
+            },
+            {
+                "provinceCityId": 266,
+                "provinceCityName": "五家渠市"
+            }
+        ],
+        "provinceName": "新疆维吾尔自治区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 319,
+                "provinceCityName": "南京市"
+            },
+            {
+                "provinceCityId": 320,
+                "provinceCityName": "无锡市"
+            },
+            {
+                "provinceCityId": 321,
+                "provinceCityName": "徐州市"
+            },
+            {
+                "provinceCityId": 322,
+                "provinceCityName": "常州市"
+            },
+            {
+                "provinceCityId": 323,
+                "provinceCityName": "苏州市"
+            },
+            {
+                "provinceCityId": 324,
+                "provinceCityName": "南通市"
+            },
+            {
+                "provinceCityId": 325,
+                "provinceCityName": "连云港市"
+            },
+            {
+                "provinceCityId": 326,
+                "provinceCityName": "淮安市"
+            },
+            {
+                "provinceCityId": 327,
+                "provinceCityName": "盐城市"
+            },
+            {
+                "provinceCityId": 328,
+                "provinceCityName": "扬州市"
+            },
+            {
+                "provinceCityId": 329,
+                "provinceCityName": "镇江市"
+            },
+            {
+                "provinceCityId": 330,
+                "provinceCityName": "泰州市"
+            },
+            {
+                "provinceCityId": 331,
+                "provinceCityName": "宿迁市"
+            }
+        ],
+        "provinceName": "江苏省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 332,
+                "provinceCityName": "南昌市"
+            },
+            {
+                "provinceCityId": 333,
+                "provinceCityName": "景德镇市"
+            },
+            {
+                "provinceCityId": 334,
+                "provinceCityName": "萍乡市"
+            },
+            {
+                "provinceCityId": 335,
+                "provinceCityName": "九江市"
+            },
+            {
+                "provinceCityId": 336,
+                "provinceCityName": "新余市"
+            },
+            {
+                "provinceCityId": 337,
+                "provinceCityName": "鹰潭市"
+            },
+            {
+                "provinceCityId": 338,
+                "provinceCityName": "赣州市"
+            },
+            {
+                "provinceCityId": 339,
+                "provinceCityName": "吉安市"
+            },
+            {
+                "provinceCityId": 340,
+                "provinceCityName": "宜春市"
+            },
+            {
+                "provinceCityId": 341,
+                "provinceCityName": "抚州市"
+            },
+            {
+                "provinceCityId": 342,
+                "provinceCityName": "上饶市"
+            }
+        ],
+        "provinceName": "江西省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 171,
+                "provinceCityName": "石家庄市"
+            },
+            {
+                "provinceCityId": 172,
+                "provinceCityName": "唐山市"
+            },
+            {
+                "provinceCityId": 173,
+                "provinceCityName": "秦皇岛市"
+            },
+            {
+                "provinceCityId": 174,
+                "provinceCityName": "邯郸市"
+            },
+            {
+                "provinceCityId": 175,
+                "provinceCityName": "邢台市"
+            },
+            {
+                "provinceCityId": 176,
+                "provinceCityName": "保定市"
+            },
+            {
+                "provinceCityId": 177,
+                "provinceCityName": "张家口市"
+            },
+            {
+                "provinceCityId": 178,
+                "provinceCityName": "承德市"
+            },
+            {
+                "provinceCityId": 179,
+                "provinceCityName": "沧州市"
+            },
+            {
+                "provinceCityId": 180,
+                "provinceCityName": "廊坊市"
+            },
+            {
+                "provinceCityId": 181,
+                "provinceCityName": "衡水市"
+            }
+        ],
+        "provinceName": "河北省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 182,
+                "provinceCityName": "郑州市"
+            },
+            {
+                "provinceCityId": 183,
+                "provinceCityName": "开封市"
+            },
+            {
+                "provinceCityId": 184,
+                "provinceCityName": "洛阳市"
+            },
+            {
+                "provinceCityId": 185,
+                "provinceCityName": "平顶山市"
+            },
+            {
+                "provinceCityId": 186,
+                "provinceCityName": "安阳市"
+            },
+            {
+                "provinceCityId": 187,
+                "provinceCityName": "鹤壁市"
+            },
+            {
+                "provinceCityId": 188,
+                "provinceCityName": "新乡市"
+            },
+            {
+                "provinceCityId": 189,
+                "provinceCityName": "焦作市"
+            },
+            {
+                "provinceCityId": 190,
+                "provinceCityName": "济源市"
+            },
+            {
+                "provinceCityId": 191,
+                "provinceCityName": "濮阳市"
+            },
+            {
+                "provinceCityId": 192,
+                "provinceCityName": "许昌市"
+            },
+            {
+                "provinceCityId": 193,
+                "provinceCityName": "漯河市"
+            },
+            {
+                "provinceCityId": 194,
+                "provinceCityName": "三门峡市"
+            },
+            {
+                "provinceCityId": 195,
+                "provinceCityName": "南阳市"
+            },
+            {
+                "provinceCityId": 196,
+                "provinceCityName": "商丘市"
+            },
+            {
+                "provinceCityId": 197,
+                "provinceCityName": "信阳市"
+            },
+            {
+                "provinceCityId": 198,
+                "provinceCityName": "周口市"
+            },
+            {
+                "provinceCityId": 199,
+                "provinceCityName": "驻马店市"
+            }
+        ],
+        "provinceName": "河南省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 276,
+                "provinceCityName": "杭州市"
+            },
+            {
+                "provinceCityId": 277,
+                "provinceCityName": "宁波市"
+            },
+            {
+                "provinceCityId": 278,
+                "provinceCityName": "温州市"
+            },
+            {
+                "provinceCityId": 279,
+                "provinceCityName": "嘉兴市"
+            },
+            {
+                "provinceCityId": 280,
+                "provinceCityName": "湖州市"
+            },
+            {
+                "provinceCityId": 281,
+                "provinceCityName": "绍兴市"
+            },
+            {
+                "provinceCityId": 282,
+                "provinceCityName": "金华市"
+            },
+            {
+                "provinceCityId": 283,
+                "provinceCityName": "衢州市"
+            },
+            {
+                "provinceCityId": 284,
+                "provinceCityName": "舟山市"
+            },
+            {
+                "provinceCityId": 285,
+                "provinceCityName": "台州市"
+            },
+            {
+                "provinceCityId": 286,
+                "provinceCityName": "丽水市"
+            }
+        ],
+        "provinceName": "浙江省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 301,
+                "provinceCityName": "海口市"
+            },
+            {
+                "provinceCityId": 302,
+                "provinceCityName": "三亚市"
+            },
+            {
+                "provinceCityId": 303,
+                "provinceCityName": "五指山市"
+            },
+            {
+                "provinceCityId": 304,
+                "provinceCityName": "琼海市"
+            },
+            {
+                "provinceCityId": 305,
+                "provinceCityName": "儋州市"
+            },
+            {
+                "provinceCityId": 306,
+                "provinceCityName": "文昌市"
+            },
+            {
+                "provinceCityId": 307,
+                "provinceCityName": "万宁市"
+            },
+            {
+                "provinceCityId": 308,
+                "provinceCityName": "东方市"
+            },
+            {
+                "provinceCityId": 309,
+                "provinceCityName": "定安县"
+            },
+            {
+                "provinceCityId": 310,
+                "provinceCityName": "屯昌县"
+            },
+            {
+                "provinceCityId": 311,
+                "provinceCityName": "澄迈县"
+            },
+            {
+                "provinceCityId": 312,
+                "provinceCityName": "临高县"
+            },
+            {
+                "provinceCityId": 313,
+                "provinceCityName": "白沙黎族自治县"
+            },
+            {
+                "provinceCityId": 314,
+                "provinceCityName": "昌江黎族自治县"
+            },
+            {
+                "provinceCityId": 315,
+                "provinceCityName": "乐东黎族自治县"
+            },
+            {
+                "provinceCityId": 316,
+                "provinceCityName": "陵水黎族自治县"
+            },
+            {
+                "provinceCityId": 317,
+                "provinceCityName": "保亭黎族苗族自治县"
+            },
+            {
+                "provinceCityId": 318,
+                "provinceCityName": "琼中黎族苗族自治县"
+            }
+        ],
+        "provinceName": "海南省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 200,
+                "provinceCityName": "武汉市"
+            },
+            {
+                "provinceCityId": 201,
+                "provinceCityName": "黄石市"
+            },
+            {
+                "provinceCityId": 202,
+                "provinceCityName": "十堰市"
+            },
+            {
+                "provinceCityId": 203,
+                "provinceCityName": "宜昌市"
+            },
+            {
+                "provinceCityId": 204,
+                "provinceCityName": "襄樊市"
+            },
+            {
+                "provinceCityId": 205,
+                "provinceCityName": "鄂州市"
+            },
+            {
+                "provinceCityId": 206,
+                "provinceCityName": "荆门市"
+            },
+            {
+                "provinceCityId": 207,
+                "provinceCityName": "孝感市"
+            },
+            {
+                "provinceCityId": 208,
+                "provinceCityName": "荆州市"
+            },
+            {
+                "provinceCityId": 209,
+                "provinceCityName": "黄冈市"
+            },
+            {
+                "provinceCityId": 210,
+                "provinceCityName": "咸宁市"
+            },
+            {
+                "provinceCityId": 211,
+                "provinceCityName": "随州市"
+            },
+            {
+                "provinceCityId": 212,
+                "provinceCityName": "恩施土家族苗族自治州"
+            },
+            {
+                "provinceCityId": 213,
+                "provinceCityName": "仙桃市"
+            },
+            {
+                "provinceCityId": 214,
+                "provinceCityName": "潜江市"
+            },
+            {
+                "provinceCityId": 215,
+                "provinceCityName": "天门市"
+            },
+            {
+                "provinceCityId": 216,
+                "provinceCityName": "神农架林区"
+            }
+        ],
+        "provinceName": "湖北省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 287,
+                "provinceCityName": "长沙市"
+            },
+            {
+                "provinceCityId": 288,
+                "provinceCityName": "株洲市"
+            },
+            {
+                "provinceCityId": 289,
+                "provinceCityName": "湘潭市"
+            },
+            {
+                "provinceCityId": 290,
+                "provinceCityName": "衡阳市"
+            },
+            {
+                "provinceCityId": 291,
+                "provinceCityName": "邵阳市"
+            },
+            {
+                "provinceCityId": 292,
+                "provinceCityName": "岳阳市"
+            },
+            {
+                "provinceCityId": 293,
+                "provinceCityName": "常德市"
+            },
+            {
+                "provinceCityId": 294,
+                "provinceCityName": "张家界市"
+            },
+            {
+                "provinceCityId": 295,
+                "provinceCityName": "益阳市"
+            },
+            {
+                "provinceCityId": 296,
+                "provinceCityName": "郴州市"
+            },
+            {
+                "provinceCityId": 297,
+                "provinceCityName": "永州市"
+            },
+            {
+                "provinceCityId": 298,
+                "provinceCityName": "怀化市"
+            },
+            {
+                "provinceCityId": 299,
+                "provinceCityName": "娄底市"
+            },
+            {
+                "provinceCityId": 300,
+                "provinceCityName": "湘西土家族苗族自治州"
+            }
+        ],
+        "provinceName": "湖南省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 217,
+                "provinceCityName": "澳门"
+            }
+        ],
+        "provinceName": "澳门特别行政区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 441,
+                "provinceCityName": "兰州市"
+            },
+            {
+                "provinceCityId": 442,
+                "provinceCityName": "嘉峪关市"
+            },
+            {
+                "provinceCityId": 443,
+                "provinceCityName": "金昌市"
+            },
+            {
+                "provinceCityId": 444,
+                "provinceCityName": "白银市"
+            },
+            {
+                "provinceCityId": 445,
+                "provinceCityName": "天水市"
+            },
+            {
+                "provinceCityId": 446,
+                "provinceCityName": "武威市"
+            },
+            {
+                "provinceCityId": 447,
+                "provinceCityName": "张掖市"
+            },
+            {
+                "provinceCityId": 448,
+                "provinceCityName": "平凉市"
+            },
+            {
+                "provinceCityId": 449,
+                "provinceCityName": "酒泉市"
+            },
+            {
+                "provinceCityId": 450,
+                "provinceCityName": "庆阳市"
+            },
+            {
+                "provinceCityId": 451,
+                "provinceCityName": "定西市"
+            },
+            {
+                "provinceCityId": 452,
+                "provinceCityName": "陇南市"
+            },
+            {
+                "provinceCityId": 453,
+                "provinceCityName": "临夏回族自治州"
+            },
+            {
+                "provinceCityId": 454,
+                "provinceCityName": "甘南藏族自治州"
+            }
+        ],
+        "provinceName": "甘肃省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 267,
+                "provinceCityName": "福州市"
+            },
+            {
+                "provinceCityId": 268,
+                "provinceCityName": "厦门市"
+            },
+            {
+                "provinceCityId": 269,
+                "provinceCityName": "莆田市"
+            },
+            {
+                "provinceCityId": 270,
+                "provinceCityName": "三明市"
+            },
+            {
+                "provinceCityId": 271,
+                "provinceCityName": "泉州市"
+            },
+            {
+                "provinceCityId": 272,
+                "provinceCityName": "漳州市"
+            },
+            {
+                "provinceCityId": 273,
+                "provinceCityName": "南平市"
+            },
+            {
+                "provinceCityId": 274,
+                "provinceCityName": "龙岩市"
+            },
+            {
+                "provinceCityId": 275,
+                "provinceCityName": "宁德市"
+            }
+        ],
+        "provinceName": "福建省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 243,
+                "provinceCityName": "拉萨市"
+            },
+            {
+                "provinceCityId": 244,
+                "provinceCityName": "昌都地区"
+            },
+            {
+                "provinceCityId": 245,
+                "provinceCityName": "山南地区新疆市"
+            },
+            {
+                "provinceCityId": 250,
+                "provinceCityName": "那曲地区"
+            },
+            {
+                "provinceCityId": 251,
+                "provinceCityName": "阿里地区"
+            },
+            {
+                "provinceCityId": 252,
+                "provinceCityName": "林芝地区"
+            },
+            {
+                "provinceCityId": 480,
+                "provinceCityName": "日喀则地区"
+            }
+        ],
+        "provinceName": "西藏自治区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 394,
+                "provinceCityName": "贵阳市"
+            },
+            {
+                "provinceCityId": 395,
+                "provinceCityName": "六盘水市"
+            },
+            {
+                "provinceCityId": 396,
+                "provinceCityName": "遵义市"
+            },
+            {
+                "provinceCityId": 397,
+                "provinceCityName": "安顺市"
+            },
+            {
+                "provinceCityId": 398,
+                "provinceCityName": "铜仁地区"
+            },
+            {
+                "provinceCityId": 399,
+                "provinceCityName": "黔西南布依族苗族自治州"
+            },
+            {
+                "provinceCityId": 400,
+                "provinceCityName": "毕节地区"
+            },
+            {
+                "provinceCityId": 401,
+                "provinceCityName": "黔东南苗族侗族自治州"
+            },
+            {
+                "provinceCityId": 402,
+                "provinceCityName": "黔南布依族苗族自治州"
+            }
+        ],
+        "provinceName": "贵州省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 118,
+                "provinceCityName": "辽宁市"
+            },
+            {
+                "provinceCityId": 119,
+                "provinceCityName": "沈阳市"
+            },
+            {
+                "provinceCityId": 120,
+                "provinceCityName": "大连市"
+            },
+            {
+                "provinceCityId": 121,
+                "provinceCityName": "鞍山市"
+            },
+            {
+                "provinceCityId": 122,
+                "provinceCityName": "抚顺市"
+            },
+            {
+                "provinceCityId": 123,
+                "provinceCityName": "本溪市"
+            },
+            {
+                "provinceCityId": 124,
+                "provinceCityName": "丹东市"
+            },
+            {
+                "provinceCityId": 125,
+                "provinceCityName": "锦州市"
+            },
+            {
+                "provinceCityId": 126,
+                "provinceCityName": "营口市"
+            },
+            {
+                "provinceCityId": 127,
+                "provinceCityName": "阜新市"
+            },
+            {
+                "provinceCityId": 128,
+                "provinceCityName": "辽阳市"
+            },
+            {
+                "provinceCityId": 129,
+                "provinceCityName": "盘锦市"
+            },
+            {
+                "provinceCityId": 130,
+                "provinceCityName": "铁岭市"
+            },
+            {
+                "provinceCityId": 131,
+                "provinceCityName": "朝阳市"
+            },
+            {
+                "provinceCityId": 132,
+                "provinceCityName": "葫芦岛市"
+            }
+        ],
+        "provinceName": "辽宁省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 56,
+                "provinceCityName": "万州区"
+            },
+            {
+                "provinceCityId": 57,
+                "provinceCityName": "涪陵区"
+            },
+            {
+                "provinceCityId": 58,
+                "provinceCityName": "渝中区"
+            },
+            {
+                "provinceCityId": 59,
+                "provinceCityName": "大渡口区"
+            },
+            {
+                "provinceCityId": 60,
+                "provinceCityName": "江北区"
+            },
+            {
+                "provinceCityId": 61,
+                "provinceCityName": "沙坪坝区"
+            },
+            {
+                "provinceCityId": 62,
+                "provinceCityName": "九龙坡区"
+            },
+            {
+                "provinceCityId": 63,
+                "provinceCityName": "南岸区"
+            },
+            {
+                "provinceCityId": 64,
+                "provinceCityName": "北碚区"
+            },
+            {
+                "provinceCityId": 65,
+                "provinceCityName": "万盛区"
+            },
+            {
+                "provinceCityId": 66,
+                "provinceCityName": "双桥区"
+            },
+            {
+                "provinceCityId": 67,
+                "provinceCityName": "渝北区"
+            },
+            {
+                "provinceCityId": 68,
+                "provinceCityName": "巴南区"
+            },
+            {
+                "provinceCityId": 69,
+                "provinceCityName": "黔江区"
+            },
+            {
+                "provinceCityId": 70,
+                "provinceCityName": "长寿区"
+            },
+            {
+                "provinceCityId": 71,
+                "provinceCityName": "江津区"
+            },
+            {
+                "provinceCityId": 72,
+                "provinceCityName": "合川区"
+            },
+            {
+                "provinceCityId": 73,
+                "provinceCityName": "永川区"
+            },
+            {
+                "provinceCityId": 74,
+                "provinceCityName": "南川区"
+            },
+            {
+                "provinceCityId": 75,
+                "provinceCityName": "綦江县"
+            },
+            {
+                "provinceCityId": 76,
+                "provinceCityName": "潼南县"
+            },
+            {
+                "provinceCityId": 77,
+                "provinceCityName": "铜梁县"
+            },
+            {
+                "provinceCityId": 78,
+                "provinceCityName": "大足县"
+            },
+            {
+                "provinceCityId": 79,
+                "provinceCityName": "荣昌县"
+            },
+            {
+                "provinceCityId": 80,
+                "provinceCityName": "璧山县"
+            },
+            {
+                "provinceCityId": 81,
+                "provinceCityName": "梁平县"
+            },
+            {
+                "provinceCityId": 82,
+                "provinceCityName": "城口县"
+            },
+            {
+                "provinceCityId": 83,
+                "provinceCityName": "丰都县"
+            },
+            {
+                "provinceCityId": 84,
+                "provinceCityName": "垫江县"
+            },
+            {
+                "provinceCityId": 85,
+                "provinceCityName": "武隆县"
+            },
+            {
+                "provinceCityId": 86,
+                "provinceCityName": "忠县"
+            },
+            {
+                "provinceCityId": 87,
+                "provinceCityName": "开县"
+            },
+            {
+                "provinceCityId": 88,
+                "provinceCityName": "云阳县"
+            },
+            {
+                "provinceCityId": 89,
+                "provinceCityName": "奉节县"
+            },
+            {
+                "provinceCityId": 90,
+                "provinceCityName": "巫山县"
+            },
+            {
+                "provinceCityId": 91,
+                "provinceCityName": "巫溪县"
+            },
+            {
+                "provinceCityId": 92,
+                "provinceCityName": "石柱土家族自治县"
+            },
+            {
+                "provinceCityId": 93,
+                "provinceCityName": "秀山土家族苗族自治县"
+            },
+            {
+                "provinceCityId": 94,
+                "provinceCityName": "酉阳土家族苗族自治县"
+            },
+            {
+                "provinceCityId": 95,
+                "provinceCityName": "彭水苗族土家族自治县"
+            }
+        ],
+        "provinceName": "重庆市"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 161,
+                "provinceCityName": "西安市"
+            },
+            {
+                "provinceCityId": 162,
+                "provinceCityName": "铜川市"
+            },
+            {
+                "provinceCityId": 163,
+                "provinceCityName": "宝鸡市"
+            },
+            {
+                "provinceCityId": 164,
+                "provinceCityName": "咸阳市"
+            },
+            {
+                "provinceCityId": 165,
+                "provinceCityName": "渭南市"
+            },
+            {
+                "provinceCityId": 166,
+                "provinceCityName": "延安市"
+            },
+            {
+                "provinceCityId": 167,
+                "provinceCityName": "汉中市"
+            },
+            {
+                "provinceCityId": 168,
+                "provinceCityName": "榆林市"
+            },
+            {
+                "provinceCityId": 169,
+                "provinceCityName": "安康市"
+            },
+            {
+                "provinceCityId": 170,
+                "provinceCityName": "商洛市"
+            }
+        ],
+        "provinceName": "陕西省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 455,
+                "provinceCityName": "西宁市"
+            },
+            {
+                "provinceCityId": 456,
+                "provinceCityName": "海东地区"
+            },
+            {
+                "provinceCityId": 457,
+                "provinceCityName": "海北藏族自治州"
+            },
+            {
+                "provinceCityId": 458,
+                "provinceCityName": "黄南藏族自治州"
+            },
+            {
+                "provinceCityId": 459,
+                "provinceCityName": "海南藏族自治州"
+            },
+            {
+                "provinceCityId": 460,
+                "provinceCityName": "果洛藏族自治州"
+            },
+            {
+                "provinceCityId": 461,
+                "provinceCityName": "玉树藏族自治州"
+            },
+            {
+                "provinceCityId": 462,
+                "provinceCityName": "海西蒙古族藏族自治州"
+            }
+        ],
+        "provinceName": "青海省"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 218,
+                "provinceCityName": "中西区"
+            },
+            {
+                "provinceCityId": 219,
+                "provinceCityName": "湾仔区"
+            },
+            {
+                "provinceCityId": 220,
+                "provinceCityName": "东区"
+            },
+            {
+                "provinceCityId": 221,
+                "provinceCityName": "南区"
+            },
+            {
+                "provinceCityId": 222,
+                "provinceCityName": "油尖旺区"
+            },
+            {
+                "provinceCityId": 223,
+                "provinceCityName": "深水埗区"
+            },
+            {
+                "provinceCityId": 224,
+                "provinceCityName": "九龙城区"
+            },
+            {
+                "provinceCityId": 225,
+                "provinceCityName": "黄大仙区"
+            },
+            {
+                "provinceCityId": 226,
+                "provinceCityName": "观塘区"
+            },
+            {
+                "provinceCityId": 227,
+                "provinceCityName": "荃湾区"
+            },
+            {
+                "provinceCityId": 228,
+                "provinceCityName": "葵青区"
+            },
+            {
+                "provinceCityId": 229,
+                "provinceCityName": "沙田区"
+            },
+            {
+                "provinceCityId": 230,
+                "provinceCityName": "西贡区"
+            },
+            {
+                "provinceCityId": 231,
+                "provinceCityName": "大埔区"
+            },
+            {
+                "provinceCityId": 232,
+                "provinceCityName": "北区"
+            },
+            {
+                "provinceCityId": 233,
+                "provinceCityName": "元朗区"
+            },
+            {
+                "provinceCityId": 234,
+                "provinceCityName": "屯门区"
+            },
+            {
+                "provinceCityId": 235,
+                "provinceCityName": "离岛区"
+            }
+        ],
+        "provinceName": "香港特别行政区"
+    },
+    {
+        "city": [
+            {
+                "provinceCityId": 96,
+                "provinceCityName": "哈尔滨市"
+            },
+            {
+                "provinceCityId": 97,
+                "provinceCityName": "齐齐哈尔市"
+            },
+            {
+                "provinceCityId": 98,
+                "provinceCityName": "鸡西市"
+            },
+            {
+                "provinceCityId": 99,
+                "provinceCityName": "鹤岗市"
+            },
+            {
+                "provinceCityId": 100,
+                "provinceCityName": "双鸭山市"
+            },
+            {
+                "provinceCityId": 101,
+                "provinceCityName": "大庆市"
+            },
+            {
+                "provinceCityId": 102,
+                "provinceCityName": "伊春市"
+            },
+            {
+                "provinceCityId": 103,
+                "provinceCityName": "佳木斯市"
+            },
+            {
+                "provinceCityId": 104,
+                "provinceCityName": "七台河市"
+            },
+            {
+                "provinceCityId": 105,
+                "provinceCityName": "牡丹江市"
+            },
+            {
+                "provinceCityId": 106,
+                "provinceCityName": "黑河市"
+            },
+            {
+                "provinceCityId": 107,
+                "provinceCityName": "绥化市"
+            },
+            {
+                "provinceCityId": 108,
+                "provinceCityName": "大兴安岭地区"
+            }
+        ],
+        "provinceName": "黑龙江省"
+    }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="home_gridView_height">210.0dp</dimen>
+    <dimen name="home_text_top_one">10dp</dimen>
+
+</resources>

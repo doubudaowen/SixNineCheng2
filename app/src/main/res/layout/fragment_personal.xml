@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hidden"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="@color/page_color" >
+
+        <TextView
+            android:id="@+id/personal_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/personal_center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/my_two_text_width_map" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loading_fxi_two_item"
+        android:background="@drawable/my_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.mobile.liujiucheng.sixninecheng.main.view.CircleImageView
+            android:id="@+id/default_avatar1"
+            android:layout_width="80dp"
+            android:layout_centerInParent="true"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_loading_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_two_nine_width"
+            android:text="@string/loading_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/my_one_text_width" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/my_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/home_center_left"
+        android:background="@color/white"
+        android:divider="@drawable/my_line" >
+    </ListView>
+
+</LinearLayout>

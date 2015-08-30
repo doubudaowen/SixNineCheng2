@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/top_to_measure_tensile_bar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/home_serach_13"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_select_property"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/top_to_measure_tensile_bar"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center"
+                    android:text="二手房"
+                    android:textColor="#66c6f2"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/search_options" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/search_vertical_bar" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/top_to_measure_tensile_bar"
+                android:layout_gravity="center"
+                android:background="@drawable/home_serach_13"
+                android:hint="@string/my_home_item"
+                android:imeActionLabel="搜索"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/hidden_search_word"
+                android:textColorHint="@color/hidden_search"
+                android:textSize="@dimen/bottom_tab_font_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_cancal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/home_beijing_left"
+            android:layout_marginRight="5dp"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/home_beijing_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_no_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/search_icon" />
+
+        <ListView
+            android:id="@+id/lv_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
+        <ListView
+            android:id="@+id/lv_history_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
+    </RelativeLayout>
+</LinearLayout>

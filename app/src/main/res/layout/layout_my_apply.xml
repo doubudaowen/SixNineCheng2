@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <!-- 意见反馈 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea" >
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/return_link" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="合作申请"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/my_two_text_width_map" />
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/home_center_left"
+            android:text="编辑"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/describe_one_text_width" /> -->
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#51c0ea"
+        android:text="商户"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区域" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_show"
+            android:maxLength="15"
+            android:id="@+id/et_area"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+            android:maxLength="15"
+            android:id="@+id/et_company_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地址" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+            android:maxLength="15"
+            android:id="@+id/et_company_addrss"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+            android:maxLength="12"
+            android:id="@+id/et_company_tele"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:numeric="integer" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+            android:maxLength="10"
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="11"
+            android:id="@+id/et_tele"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:numeric="integer" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_four_nine_top"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+             android:textSize="@dimen/my_one_text_width"
+            android:textColor="@color/relse_entrust_cooperation_prompt"
+            style="@style/TextSizeItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证" />
+
+        <EditText
+             android:textSize="@dimen/my_one_text_width"
+             android:textColor="@color/relse_entrust_cooperation_show"
+             android:maxLength="18"
+            android:id="@+id/et_card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:numeric="integer" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/details_horizontal_line" />
+
+    <Button
+        android:id="@+id/bu_loading"
+        android:layout_width="@dimen/loading_fxi_two_item_width"
+        android:layout_height="@dimen/loading_fxi_two_item_top"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/my_four_nine_top"
+        android:background="@drawable/selector_button_loading_register"
+        android:text="提交"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

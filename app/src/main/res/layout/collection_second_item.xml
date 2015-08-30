@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:background="@drawable/selector_listview_bg"
+    android:layout_height="@dimen/me_fxi_two_top"
+    android:minHeight="@dimen/me_fxi_two_top" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_fxi_two_top_item_width"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_collection_icon"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/availability"
+                android:scaleType="fitXY" />
+            <!-- 标题 -->
+
+            <LinearLayout
+                android:id="@+id/ll_collection_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_collection_icon"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="[个人房租]在北京市朝阳双井区"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                <!-- 房子的大小 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_house"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:singleLine="true"
+                        android:text=" 面积:117/m²-户型-2室2厅1卫"
+                        android:textColor="#0f80a2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="8dp"
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center|right"
+                        android:singleLine="true"
+                        android:text="500万"
+                        android:textColor="#c2192f"
+                        android:textSize="14sp" />
+                </LinearLayout>
+                <!-- 房子的地区 -->
+
+                <LinearLayout
+                    android:gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="满五唯一"
+                        android:textSize="15sp"
+                        android:id="@+id/tv_1" />
+
+                    <TextView
+                        android:background="@drawable/shape__bg_one"
+                        android:textColor="@color/color_two"
+                         android:gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+                        android:text="学区"
+                        android:textSize="15sp"
+                        android:id="@+id/tv_2" />
+
+                    <TextView
+                        android:background="@drawable/shape__bg_four"
+                        android:textColor="@color/text_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="bottom"
+                        android:text="地铁房"
+                        android:visibility="gone"
+                        android:textSize="15sp"
+                        android:id="@+id/tv_3" />
+
+                    <TextView
+                        android:background="@drawable/shape__bg_three"
+                        android:textColor="#c2192f"
+                        android:singleLine="true"
+                         android:gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="独家"
+                        android:visibility="gone"
+                        android:textSize="15sp"
+                        android:id="@+id/tv_4" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/ic_launcher" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

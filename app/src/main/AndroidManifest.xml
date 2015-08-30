@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.liujiucheng.sixninecheng.main"
+    android:versionCode="2"
+    android:versionName="3.0" >
+
+    <!-- <uses-sdk android:minSdkVersion="13" /> -->
+    <!-- 配置后才能正确获取屏幕的尺寸 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    <!-- 百度地图的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!--  -->
+    <application
+        android:name="com.mobile.liujiucheng.sixninecheng.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tubiao"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ITe8wBBHG09vRqiNSGB9ujud" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RetalActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".RentActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".CooperationActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".TradingActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity android:name=".AboutActivity" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/Anim_fade"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/dialog" >
+        </activity>
+        <activity
+            android:name=".SecondDetailActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".CheckingActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".BaseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyPhoneActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyNameActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyPositionActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".EntrustActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyCollectionActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyWalletActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".LoagingActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".FeedBackActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyVolume"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".AboutLiuJiuChengActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".ApplyActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".ReleaseHouseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".EntrustHouseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".SecondaryReleaseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".SellActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".SellHouseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".DecorateActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".ClassHouseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".PropertyActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MyHouseActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".CommonSearchActivity"
+            android:theme="@style/Anim_fade"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".TwoSearchActivity"
+            android:theme="@style/Anim_fade"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".DetailMapActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".UseInformationActivity"
+            android:theme="@style/Anim_fade" >
+        </activity>
+        <activity
+            android:name=".MapRentActivity"
+            android:theme="@style/translucent" >
+        </activity>
+        <activity
+            android:name=".MapSecondActivity"
+            android:theme="@style/translucent" >
+        </activity>
+        <activity
+            android:name=".VersionUpdateActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".BeingUpdatedActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".view.PandaRentActivity"
+            android:label="@string/title_activity_panda_rent" >
+        </activity>
+        <activity
+            android:name=".view.PandaItem"
+            android:label="@string/title_activity_panda_item" >
+        </activity>
+        <activity
+            android:name=".view.AcquireRentActivity"
+            android:label="@string/title_activity_acquire_rent" >
+        </activity>
+        <activity
+            android:name=".view.AcquireItemActivity"
+            android:label="@string/title_activity_acquire_item" >
+        </activity>
+        <activity
+            android:name=".view.ForgetPasswordActivity"
+            android:label="@string/title_activity_forget_password" >
+        </activity>
+        <activity
+            android:name=".activityliu.AddRoommateActivity"
+            android:label="@string/title_activity_add_roommate" >
+        </activity>
+        <activity
+            android:name=".activityliu.MyReleaseActivity"
+            android:label="@string/title_activity_my_release" >
+        </activity>
+        <activity
+            android:name=".activityliu.MyReleaseSeePandaActivity"
+            android:label="@string/title_activity_my_release_see_panda" >
+        </activity>
+        <activity
+            android:name=".activityliu.MyReleaseSeeReleaseActivity"
+            android:label="@string/title_activity_my_release_see_release" >
+        </activity>
+        <activity
+            android:name=".activityliu.MyReleaseSeeRentActivity"
+            android:label="@string/title_activity_my_release_see_rent" >
+        </activity>
+        <activity
+            android:name=".activityliu.MyReleaseSeeSecondActivity"
+            android:label="@string/title_activity_my_release_see_sell" >
+        </activity>
+        <activity
+            android:name=".activityliu.PandaRentalActivity"
+            android:label="@string/title_activity_panda_rental" >
+        </activity>
+        <activity
+            android:name=".activityliu.PandaRentalCheckPayActivity"
+            android:label="@string/title_activity_panda_rental_check_pay" >
+        </activity>
+        <activity
+            android:name=".activityliu.PandaRentalCheckTowardsActivity"
+            android:label="@string/title_activity_panda_rental_check_towards" >
+        </activity>
+        <activity
+            android:name=".activityliu.PandaRentalStateActivity"
+            android:label="@string/title_activity_panda_rental_state" >
+        </activity>
+        <activity
+            android:name=".activityliu.ReleaseActivity"
+            android:label="@string/title_activity_release" >
+        </activity>
+        <activity
+            android:name=".view.ModificationActivity"
+            android:label="@string/title_activity_modification" >
+        </activity>
+        <activity
+            android:name=".view.MyAccountActivity"
+            android:label="@string/title_activity_my_account" >
+        </activity>
+        <activity
+            android:name=".view.NineSixActivity"
+            android:label="@string/title_activity_nine_six" >
+        </activity>
+
+        <!-- 微信分享回调,加 Theme.NoDisplay防止出现黑屏闪烁 -->
+        <activity
+            android:name="com.mobile.liujiucheng.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <!-- 友盟分享 -->
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- ###################添加UmengAppkey###################### -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55d0635de0f55a9a1a004475" >
+        </meta-data>
+
+        <activity
+            android:name=".view.HouseDetailsActivity"
+            android:label="@string/title_activity_house_details" >
+        </activity>
+    </application>
+
+</manifest>

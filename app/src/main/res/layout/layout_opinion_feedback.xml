@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <!-- 意见反馈 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea" >
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="意见反馈"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/my_two_text_width_map" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_send"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/home_center_left"
+            android:text="发送"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/describe_one_text_width" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" >
+
+        <EditText
+            android:textSize="16sp"
+            android:id="@+id/et_content"
+            android:gravity="top"
+            android:textColorHint="#9f9fa0"
+            android:hint="请你输入你反馈的内容"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/ll_remove"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feedback_delete" />
+            <TextView
+                 android:textSize="14sp"
+                android:textColor="#9f9fa0" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清除内容"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

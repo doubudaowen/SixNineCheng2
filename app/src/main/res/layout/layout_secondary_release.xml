@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#67bce5" >
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link" />
+
+        <TextView
+            android:id="@+id/tv_title_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="出售"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/my_two_text_width_map" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_plot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="小区"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center|left"
+                    android:hint="小区"
+                    android:maxLength="12"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="#eeeeee" >
+                </EditText>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/rl_area"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="区域"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <EditText
+                    android:id="@+id/tv_area"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center|left"
+                    android:hint="朝阳"
+                    android:maxLength="10"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="#eeeeee" >
+                </EditText>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/rl_area_circle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_three_circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="商圈"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <EditText
+                    android:id="@+id/et_area_circle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:gravity="center|left"
+                    android:hint="安贞门"
+                    android:maxLength="10"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="#eeeeee" >
+                </EditText>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:text="户型" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_one"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="#eeeeee" />
+
+                    <TextView
+                        style="@style/TextSizeItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="室" />
+
+                    <EditText
+                        android:id="@+id/et_two"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="#eeeeee" />
+
+                    <TextView
+                        style="@style/TextSizeItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="厅" />
+
+                    <EditText
+                        android:id="@+id/et_three"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="#eeeeee" />
+
+                    <TextView
+                        style="@style/TextSizeItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="卫" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="楼层" />
+
+                <EditText
+                    android:id="@+id/et_floor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:hint="第几"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden" />
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="层" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="总层" />
+
+                <EditText
+                    android:id="@+id/et_total"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:hint="第几"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden" />
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="层" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="朝向" />
+
+                <EditText
+                    android:id="@+id/et_direction"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:gravity="center|left"
+                    android:hint="南"
+                    android:maxLength="10"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="地址" />
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/et_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:gravity="center|left"
+                        android:hint="北京市朝阳区双井"
+                        android:maxLength="15"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_proportion"
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:text="面积" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/tv_proportion"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_area_house"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:hint="100"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+
+                    <TextView
+                        style="@style/TextSizeItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="平方" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:text="总价" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/tv_price"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_price"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:hint="1500"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+
+                    <TextView
+                        android:id="@+id/SBCNM"
+                        style="@style/TextSizeItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="万元" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_decorate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="装修"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <TextView
+                    android:id="@+id/tv_decorate"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_one"
+                    android:background="#FFFFFF"
+                    android:gravity="center|left"
+                    android:hint="简单装修"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden"
+                    android:textSize="@dimen/my_two_text_width" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/release_return" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_property"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="产权"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <TextView
+                    android:id="@+id/tv_property"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_two"
+                    android:background="#FFFFFF"
+                    android:gravity="center|left"
+                    android:hint="70年产权"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden"
+                    android:textSize="@dimen/my_two_text_width" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/release_return" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_class_house"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:id="@+id/tv_thre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="类型"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <TextView
+                    android:id="@+id/tv_class_house"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tv_thre"
+                    android:background="#FFFFFF"
+                    android:gravity="center|left"
+                    android:hint="住宅"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden"
+                    android:textSize="@dimen/my_two_text_width" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/release_return" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/ll_feature"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TESE"
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="特点" />
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/et_house_feature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:hint="如满五唯一"
+                        android:maxLength="20"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="标题" />
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/et_house_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:hint="8到20字"
+                        android:maxLength="20"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/TextSizeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="描述" />
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/et_house_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:gravity="center|left"
+                        android:hint="简单描述"
+                        android:maxLength="20"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden" />
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="姓名"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/et_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:hint="姓名"
+                        android:maxLength="10"
+                        android:textColor="@color/relse_entrust_cooperation_show"
+                        android:textColorHint="@color/hidden"
+                        android:textSize="@dimen/my_two_text_width" />
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_four_nine_top" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="手机"
+                    android:textColor="@color/relse_entrust_cooperation_prompt"
+                    android:textSize="@dimen/my_one_text_width" />
+
+                <EditText
+                    android:layout_marginLeft="@dimen/entrust_left_house"
+                    android:inputType="number"
+                    android:id="@+id/et_way"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:maxLength="11"
+                    android:textColor="@color/relse_entrust_cooperation_show"
+                    android:textColorHint="@color/hidden"
+                    android:textSize="@dimen/my_two_text_width" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/details_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linearLayout_image_height"
+                android:layout_marginLeft="@dimen/linearLayout_left_reight"
+                android:layout_marginRight="@dimen/linearLayout_left_reight"
+                android:layout_marginTop="@dimen/linearLayout_height"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_weight="1"
+                    android:background="@drawable/release_picture_background" >
+
+                    <ImageView
+                        android:id="@+id/iv_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_marginLeft="@dimen/linearLayout_left_reight"
+                    android:layout_weight="1"
+                    android:background="@drawable/release_picture_background" >
+
+                    <ImageView
+                        android:id="@+id/iv_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_marginLeft="@dimen/linearLayout_left_reight"
+                    android:layout_weight="1"
+                    android:background="@drawable/release_picture_background" >
+
+                    <ImageView
+                        android:id="@+id/iv_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bu_register"
+                android:layout_width="@dimen/loading_fxi_two_item_width"
+                android:layout_height="@dimen/loading_fxi_two_item_top"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/my_three_nine_width"
+                android:background="@drawable/selector_button_loading_register"
+                android:text="立即发布"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

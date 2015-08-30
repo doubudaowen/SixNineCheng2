@@ -1,0 +1,183 @@
+<resources>
+
+    
+    <dimen name="seven_measure_tensile_bar_height">64dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">2.0dip</dimen>
+    <dimen name="bottom_tab_font_size">14.0sp</dimen>
+
+    <!-- 轮播图 -->
+    <dimen name="home_switch_icon">48.0dp</dimen>
+    
+    <!--字体的大小  -->
+     <dimen name="home_text_size_font">8sp</dimen>
+     
+     
+     <dimen name="home_beijing">20sp</dimen>
+     
+     <!--导航栏的距离  -->
+     <dimen name="home_edit_left">23dp</dimen>
+     
+     <dimen name="home_icon_right">8dp</dimen>
+     
+     <dimen name="home_icon_left">34dp</dimen>
+     
+     <dimen name="home_beijing_right">4dp</dimen>
+      <!--字体的大小  -->
+     <dimen name="home_text_size_font_my">18sp</dimen>
+     
+     <!--  侧滑栏的距离-->
+     <dimen name="icon_to_measure_tensile_bar">35dp</dimen>
+     <dimen name="top_to_measure_tensile_bar">31dp</dimen>
+     <dimen name="text_to_measure_tensile_bar">10dp</dimen>
+     
+     <!--  -->
+     <dimen name="text_to_measure_icon_bar">36dp</dimen>
+     <dimen name="to_measure_tensile_bar">37dp</dimen>
+     <dimen name="one_measure_tensile_bar">38dp</dimen>
+     
+     <dimen name="height_top">38dp</dimen>
+     
+     
+     <!--1280x720的标配  -->
+     <dimen name="home_gridView_height">254.0dp</dimen>
+     
+     <dimen name="my_gridView_height">250.0dp</dimen>
+     <dimen name="one_measure_tensile_main">30dp</dimen>
+     
+     <dimen name="text_measure_tensile">15sp</dimen>
+     <dimen name="home_center_left">3.5dp</dimen>
+     
+     <dimen name="bottom_tab_font_size_size">12.0sp</dimen>
+     <dimen name="one_home_center_top">9dp</dimen>
+     
+     <dimen name="two_home_center_top">23dp</dimen>
+     
+     <dimen name="three_home_center_top">13dp</dimen>
+     
+       <!-- 主页的坐标距离 -->
+     <dimen name="home_text_top">30dp</dimen>
+
+     <dimen name="home_text_top_one">15dp</dimen>
+     
+     <dimen name="home_shared_height">55.0dp</dimen>
+     
+     <dimen name="home_beijing_left">12dp</dimen>
+     
+      <dimen name="home_beijing_size">15sp</dimen>
+     
+     <dimen name="home_shuffling_figure">216.0dp</dimen>
+     
+       <dimen name="home_rental_height">67.0dp</dimen>
+     
+     <dimen name="eight_measure_tensile_bar">130dp</dimen>
+     
+      <dimen name="text_measure_tensile_main">18sp</dimen>
+     
+    <!--间隔线  -->
+    <dimen name="home_Line_spacing">8dp</dimen>
+      
+      <dimen name="shadow_width">5dp</dimen>
+      
+      <dimen name="one_shadow_width">7dp</dimen>
+      
+      <dimen name="two_shadow_width">54dp</dimen>
+      
+      <dimen name="three_shadow_width">6dp</dimen>
+      
+      <dimen name="side_one_width">226dp</dimen>
+      
+      <dimen name="side_two_width">81dp</dimen>
+      
+      <dimen name="side_three_width">3dp</dimen>
+      
+      <dimen name="side_three_width_my">18dp</dimen>
+      
+      <dimen name="side_four_width">39dp</dimen>
+      
+      <dimen name="side_fix_width">70dp</dimen>
+      
+      <dimen name="side_six_width">27dp</dimen>
+      
+      <dimen name="side_nine_width">33dp</dimen>
+      
+      <dimen name="my_one_nine_width">173dp</dimen>
+      
+      <dimen name="my_two_nine_width">10dp</dimen>
+      
+      <dimen name="my_three_nine_width">20dp</dimen>
+      <dimen name="my_four_nine_width">8dp</dimen>
+      
+      <dimen name="my_four_nine_top">48dp</dimen>
+      
+      <dimen name="my_fxi_nine_top">50dp</dimen>
+      
+      <dimen name="fxi_nine_top">55dp</dimen>
+      
+      <dimen name="my_fxi_two_top">32dp</dimen>
+      
+      <dimen name="me_fxi_two_top">100dp</dimen>
+      
+      <dimen name="me__two_top">180dp</dimen>
+      
+      <dimen name="me_fxi_two_top_item">97dp</dimen>
+      
+      <dimen name="me_fxi_two_top_item_width">80dp</dimen>
+      
+      <dimen name="details_me_fxi_two_top_item_width">59dp</dimen>
+      
+      <dimen name="details_fxi_two_top_item_width">85dp</dimen>
+      
+      <dimen name="details_top_item_width">187dp</dimen>
+      
+      <dimen name="details_fxi_two_top_item">46dp</dimen>
+      
+      <dimen name="details_fxi_two_item">71dp</dimen>
+      
+      <dimen name="loading_fxi_two_item">144dp</dimen>
+      
+      <dimen name="loading_fxi_two_item_top">40dp</dimen>
+      
+      <dimen name="loading_fxi_two_item_width">300dp</dimen>
+      
+      <!-- sp -->
+      <dimen name="my_one_text_width">16sp</dimen>
+      
+      <dimen name="describe_one_text_width">14sp</dimen>
+      
+      <dimen name="my_two_text_width">18sp</dimen>
+      
+      <dimen name="my_two_text_width_map">20sp</dimen>
+      
+      
+      <!-- 房源列表 -->
+       <dimen name="house_item_text_size">15sp</dimen>
+       <!-- 地图查找的文字 -->
+      <dimen name="map_text_size">15sp</dimen>
+       <!--  看房行程-->
+      <dimen name="checking_text_size">15sp</dimen>
+      <!--搜索框的高度  -->
+      <dimen name="search_box_height">35dp</dimen>
+
+
+
+
+    <!--启动页高度  -->
+    <dimen name="welcome_top">600dp</dimen>
+
+    <dimen name="scroll">87dp</dimen>
+
+    <dimen name="iv_width">170dp</dimen>
+
+    <dimen name="iv_margin">25dp</dimen>
+
+    <dimen name="home_top">10dp</dimen>
+    <dimen name="home_bot">10dp</dimen>
+
+    <dimen name="details_house">60dp</dimen>
+</resources>

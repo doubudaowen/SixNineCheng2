@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_four_nine_top"
+    android:background="@drawable/selector_setting_bg"
+    android:minHeight="@dimen/my_four_nine_top" >
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/my_three_nine_width"
+        android:text="发布房源"
+        android:textSize="@dimen/my_one_text_width" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/my_four_nine_width"
+        android:src="@drawable/my_return_my" />
+
+    <View
+        android:id="@+id/view_line"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_center_left"
+        android:layout_alignParentBottom="true"
+        android:background="#EEEEEE" />
+
+</RelativeLayout>

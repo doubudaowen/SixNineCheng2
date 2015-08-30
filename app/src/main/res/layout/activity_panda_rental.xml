@@ -1,0 +1,849 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.mobile.liujiucheng.sixninecheng.main.activityliu.PandaRentalActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea">
+
+        <ImageView
+            android:id="@+id/panda_rental_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/return_link" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="熊猫合租"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_plot_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="小区"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_plot_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_plot_tv1"
+                    android:hint="珠江帝景"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_area_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="区域"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_area_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_area_tv1"
+                    android:hint="朝阳区" />
+
+                <EditText
+                    android:id="@+id/panda_rental_area_et2"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_area_et"
+                    android:hint="双井" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_type_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="户型"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_type_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_type_tv1"
+                    android:hint="北卧" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_floor_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="楼层"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_floor_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_floor_tv1"
+                    android:hint="10"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_floor_et"
+                    android:text="层"
+                    android:textColor="#AAAAAA" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_floor2_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="总层数"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_floor2_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_floor2_tv1"
+                    android:hint="10"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_floor2_et"
+                    android:text="层"
+                    android:textColor="#AAAAAA" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/panda_rental_towards"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_towards_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="朝向"
+                    android:textColor="#AAAAAA" />
+
+                <TextView
+                    android:id="@+id/panda_rental_towards_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/panda_rental_towards_iv1"
+                    android:text="请选择"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/panda_rental_towards_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:id="@+id/panda_rental_deploy_tv"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="配置"
+                    android:textColor="#AAAAAA" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_tv"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_tv"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="电视"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_tv"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb1"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="家具"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_tv"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb2"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="暖气"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_tv"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb3"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="煤气"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_tv"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb4"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="宽带"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/panda_rental_deploy_cb1"
+                    android:layout_below="@+id/panda_rental_deploy_cb1"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="冰箱"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_cb6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb6"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="空调"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_cb6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb7"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="热水器"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_deploy_cb9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_deploy_cb6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_deploy_cb8"
+                    android:button="@drawable/checkbox_button"
+                    android:checked="false"
+                    android:padding="5dp"
+                    android:text="洗衣机"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_address_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="地址"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_address_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_address_tv1"
+                    android:hint="朝阳区西大望路珠江帝景B区8楼" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_size_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="面积"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_size_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_size_tv1"
+                    android:hint="15"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_size_et"
+                    android:text="平米"
+                    android:textColor="#AAAAAA" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_price_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="价格"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_price_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_price_tv1"
+                    android:hint="1500"
+                    android:inputType="number" />
+
+                <TextView
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_price_et"
+                    android:text="元"
+                    android:textColor="#AAAAAA" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/panda_rental_payment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_payment_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="付款"
+                    android:textColor="#AAAAAA" />
+
+                <TextView
+                    android:id="@+id/panda_rental_payment_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/panda_rental_payment_iv1"
+                    android:text="请选择"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/panda_rental_payment_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_roommate_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="室友"
+                    android:textColor="#AAAAAA" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_roommate_checkbox1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_roommate_tv1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_roommate_tv1"
+                    android:button="@drawable/checkbox_button"
+                    android:padding="2dp"
+                    android:text="主卧"
+                    android:textColor="#AAAAAA" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_roommate_checkbox2"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_roommate_tv1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_roommate_checkbox1"
+                    android:button="@drawable/checkbox_button"
+                    android:padding="2dp"
+                    android:text="次卧"
+                    android:textColor="#AAAAAA" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_roommate_checkbox3"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_roommate_tv1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_roommate_checkbox2"
+                    android:button="@drawable/checkbox_button"
+                    android:padding="2dp"
+                    android:text="单间"
+                    android:textColor="#AAAAAA" />
+
+                <CheckBox
+                    android:id="@+id/panda_rental_roommate_checkbox4"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/panda_rental_roommate_tv1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/panda_rental_roommate_checkbox3"
+                    android:button="@drawable/checkbox_button"
+                    android:padding="2dp"
+                    android:text="隔断"
+                    android:textColor="#AAAAAA" />
+
+                <TextView
+                    android:id="@+id/panda_rental_roommate_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/panda_rental_roommate_iv1"
+                    android:text="添加"
+                    android:textColor="#AAAAAA"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/panda_rental_roommate_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/panda_rental_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_title_tv"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:singleLine="true"
+                    android:text="标题"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_title_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_title_tv" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:id="@+id/panda_rental_state_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_state_tv"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="描述"
+                    android:textColor="#AAAAAA" />
+
+                <TextView
+                    android:id="@+id/panda_rental_state_tv2"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_state_tv"
+                    android:singleLine="true"
+                    android:text="小区环境等，至少10字"
+                    android:textColor="#AAAAAA" />
+
+                <ImageView
+                    android:id="@+id/release_area_iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/my_return_my" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_linkman_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="联系人"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_linkman_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_linkman_tv1"
+                    android:hint="某某某"
+                    android:maxLength="5" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_shared_height">
+
+                <TextView
+                    android:id="@+id/panda_rental_tel_tv1"
+                    style="@style/instruction_word_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:text="手机号"
+                    android:textColor="#AAAAAA" />
+
+                <EditText
+                    android:id="@+id/panda_rental_tel_et"
+                    style="@style/instruction_word_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/panda_rental_tel_tv1"
+                    android:hint="13333333333"
+                    android:inputType="number"
+                    android:maxLength="11" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAAAAA"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/panda_rental_photo_left"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/release_picture_return" />
+                </RelativeLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/panda_rental_photo_vp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6" >
+
+                </android.support.v4.view.ViewPager>
+
+                <RelativeLayout
+                    android:id="@+id/panda_rental_photo_right"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/my_return_my" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/panda_rental_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_shared_height"
+        android:background="#51c0ea"
+        android:text="立即发布"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>

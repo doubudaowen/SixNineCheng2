@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="application_string_text">合作申请</string>
+    <string name="application_string_text_know">合作须知</string>
+    <string name="application_string_text_one">公司名称</string>
+    <string name="application_string_text_two">主营区域</string>
+    <string name="application_string_text_three">人员数量</string>
+    <string name="application_string_text_four">公司地址</string>
+    <string name="application_string_text_six">手机号码</string>
+    <string name="application_string_text_enent">负责人</string>
+    <string name="application_string_text_business">业务类型</string>
+    <string name="application_string_text_mediation">房产中介</string>
+    <string name="application_string_clean_keeping">保洁业务</string>
+    <string name="application_string_text_move">搬家业务</string>
+    <string name="application_string_maintenance">维修业务</string>
+    <string name="application_string_license">营业执照</string>
+    <string name="application_string_image">图片必须\n真实清晰</string>
+    <string name="application_string_card">身份证件\n法人照片</string>
+    <string name="application_string_legal">法人照片</string>
+    <string name="application_string_positive">持身份证\n正面照片</string>
+    <string name="application_string_post">提交申请</string>
+    <string name="cooperation_guidelines">六九城房产网/APP是国内首家房产家政服务行业开放的O2O平台，
+		六九城通过自有渠道或者媒体广告地面推广等形式，为广大合作商家
+		提供互联网信息展示，交易流程指引以及在线支付服务，并提供线下
+		的业务指导与运营管理支持服务。
+		合作商家通过六九城进行的交易服务需依法进行并遵守六九城平台之
+		规则。六九城不对具体业务过程中产生的法律纠纷或者责任承担法律
+		义务。
+		具体合作内容与规则详见相关渠道合作协议。	</string>
+
+    <!-- 网络情况 -->
+    <string name="networkfails_connection">请检查你的网络情况</string>
+    <!-- 房源评价 -->
+    <string name="housing_evaluation">房源评价</string>
+    <string name="housing_evaluation_report">举报</string>
+    <string name="housing_evaluation_order_table">预约看房</string>
+    <string name="housing_evaluation_post">提交</string>
+    <string name="housing_evaluation_cancal">取消</string>
+    <string name="housing_evaluation_note">备注</string>
+    
+    <string name="found_the_new_version">发现新版本，是否更新？</string>
+    <dimen name="found_the_new_version_size">16sp</dimen>
+    
+    <string name="found_the_new_version_cancel">下次再说</string>
+    <string name="found_the_new_version_immediately">立即更新</string>
+    <string name="found_the_new_version_bging">正在更新</string>
+    <string name="found_the_new_version_cancel_version">取消更新</string>
+    
+    <dimen name="housing_evaluation_height">340dp</dimen>
+    <dimen name="housing_evaluation_item_height">46dp</dimen>
+    
+    <!-- 地图 -->
+    <dimen name="map_height_top">50dp</dimen>
+    
+    <dimen name="map_height_left_right">5dp</dimen>
+     <string name="map_text_content">取消</string>
+    <string name="map_text_title">银河家园</string>
+     <color name="map_text_color">#333333</color>
+    <dimen name="map_text_size_fint">16sp</dimen>
+    
+    <!--附近的房源  -->
+    
+    <string name="near_text_content">丰台/六里桥</string>
+    <string name="near_text_area">117m² | 15/8 4500月/元</string>
+    <dimen name="near_top_left">5dp</dimen>
+    <dimen name="near_left">8dp</dimen>
+     <color name="near_text_color">#333333</color>
+    <dimen name="near_text_size">12sp</dimen>
+    <dimen name="near_image_width">100dp</dimen>
+    
+    
+    <color name="application_color_header">#51c0ea</color>
+    <color name="application_color_header_width">#FFFFFF</color>
+    <color name="application_color_text">#999999</color>
+    <color name="application_color_text_choose">#66c6f2</color>
+    <color name="application_color_text_mediation">#666666</color>
+    <!-- sp -->
+    <dimen name="application_font_size">16sp</dimen>
+    <dimen name="application_font_size_one">14sp</dimen>
+    <!-- 合作须知 -->
+    <dimen name="cooperation_font_size">16sp</dimen>
+    <!-- dp -->
+    <dimen name="application_font_size_left">20dp</dimen>
+    <dimen name="application_font_size_height">50dp</dimen>
+    <dimen name="application_font_height">120dp</dimen>
+    <dimen name="application_font_width">200dp</dimen>
+    <dimen name="application_width_top">35dp</dimen>
+    <!--  委托-->
+    <dimen name="entrust_left_house">10dp</dimen>
+    <!-- 发布 -->
+    <dimen name="image_height">100dp</dimen>
+    
+    <dimen name="linearLayout_image_height">120dp</dimen>
+    
+    <dimen name="linearLayout_left_reight">5dp</dimen>
+    
+    <dimen name="linearLayout_height">30dp</dimen>
+    
+    
+</resources>

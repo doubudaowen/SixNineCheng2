@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_fxi_nine_top"
+    android:background="@color/white"
+    android:minHeight="@dimen/my_fxi_nine_top" >
+
+    <TextView
+        android:gravity="center|left"
+        android:id="@+id/tv_context"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/my_fxi_two_top"
+        android:text="区域"
+        android:textColor="#333333"
+        android:textSize="@dimen/describe_one_text_width" />
+
+</RelativeLayout>

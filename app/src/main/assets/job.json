@@ -1,0 +1,251 @@
+﻿
+    {
+        "人事/行政/高级管理": [
+            {
+                "jobId": 39,
+                "jobName": "人力资源"
+            },
+            {
+                "jobId": 40,
+                "jobName": "高级管理"
+            },
+            {
+                "jobId": 41,
+                "jobName": "行政/后勤"
+            }
+        ],
+        "会计/金融/银行/保险": [
+            {
+                "jobId": 14,
+                "jobName": "财务/审计/税务"
+            },
+            {
+                "jobId": 15,
+                "jobName": "证券/金融/投资"
+            },
+            {
+                "jobId": 16,
+                "jobName": "银行"
+            },
+            {
+                "jobId": 17,
+                "jobName": "保险"
+            }
+        ],
+        "公务员/翻译/其他": [
+            {
+                "jobId": 54,
+                "jobName": "翻译"
+            },
+            {
+                "jobId": 55,
+                "jobName": "在校学生"
+            },
+            {
+                "jobId": 56,
+                "jobName": "储备干部/培训生/实习生"
+            },
+            {
+                "jobId": 57,
+                "jobName": "兼职 其他"
+            },
+            {
+                "jobId": 58,
+                "jobName": "环保"
+            },
+            {
+                "jobId": 59,
+                "jobName": "农/林/牧/渔"
+            }
+        ],
+        "咨询/法律/教育/科研": [
+            {
+                "jobId": 42,
+                "jobName": "咨询/顾问"
+            },
+            {
+                "jobId": 43,
+                "jobName": "律师/法务/合规"
+            },
+            {
+                "jobId": 44,
+                "jobName": "教师"
+            },
+            {
+                "jobId": 45,
+                "jobName": "培训"
+            },
+            {
+                "jobId": 46,
+                "jobName": "科研人员"
+            },
+            {
+                "jobId": 47,
+                "jobName": "服务业"
+            },
+            {
+                "jobId": 48,
+                "jobName": "餐饮/娱乐"
+            },
+            {
+                "jobId": 49,
+                "jobName": "酒店/旅游"
+            },
+            {
+                "jobId": 50,
+                "jobName": "美容/健身/体育"
+            },
+            {
+                "jobId": 51,
+                "jobName": "百货/连锁/零售服务"
+            },
+            {
+                "jobId": 52,
+                "jobName": "交通运输服务"
+            },
+            {
+                "jobId": 53,
+                "jobName": "保安/家政/其他服务"
+            }
+        ],
+        "广告/市场/媒体/艺术": [
+            {
+                "jobId": 30,
+                "jobName": "广告"
+            },
+            {
+                "jobId": 31,
+                "jobName": "公关/媒介"
+            },
+            {
+                "jobId": 32,
+                "jobName": "市场/营销"
+            },
+            {
+                "jobId": 33,
+                "jobName": "影视/媒体"
+            },
+            {
+                "jobId": 34,
+                "jobName": "写作/出版/印刷"
+            },
+            {
+                "jobId": 35,
+                "jobName": "艺术/设计"
+            }
+        ],
+        "建筑/房地产": [
+            {
+                "jobId": 36,
+                "jobName": "建筑工程"
+            },
+            {
+                "jobId": 37,
+                "jobName": "房地产"
+            },
+            {
+                "jobId": 38,
+                "jobName": "物业管理"
+            }
+        ],
+        "物流/仓储": [
+            {
+                "jobId": 26,
+                "jobName": "生物/制药/医疗/护理"
+            },
+            {
+                "jobId": 27,
+                "jobName": "生物/制药/医疗器械"
+            },
+            {
+                "jobId": 28,
+                "jobName": "化工"
+            },
+            {
+                "jobId": 29,
+                "jobName": "医院/医疗/护理"
+            }
+        ],
+        "生产/营运/采购/物流": [
+            {
+                "jobId": 18,
+                "jobName": "生产/营运"
+            },
+            {
+                "jobId": 19,
+                "jobName": "质量/安全管理"
+            },
+            {
+                "jobId": 20,
+                "jobName": "工程/机械/能源"
+            },
+            {
+                "jobId": 21,
+                "jobName": "汽车"
+            },
+            {
+                "jobId": 22,
+                "jobName": "技工"
+            },
+            {
+                "jobId": 23,
+                "jobName": "服装/纺织/皮革"
+            },
+            {
+                "jobId": 24,
+                "jobName": "采购"
+            },
+            {
+                "jobId": 25,
+                "jobName": "贸易"
+            }
+        ],
+        "计算机/互联网/通信/电子": [
+            {
+                "jobId": 1,
+                "jobName": "计算机硬件"
+            },
+            {
+                "jobId": 2,
+                "jobName": "计算机软件"
+            },
+            {
+                "jobId": 5,
+                "jobName": "IT-管理"
+            },
+            {
+                "jobId": 6,
+                "jobName": "互联网开发及应用"
+            },
+            {
+                "jobId": 7,
+                "jobName": "IT-品管、技术支持及其它"
+            },
+            {
+                "jobId": 8,
+                "jobName": "通信技术"
+            },
+            {
+                "jobId": 9,
+                "jobName": "电子/电器/半导体/仪器仪表"
+            }
+        ],
+        "销售/客服/技术支持": [
+            {
+                "jobId": 10,
+                "jobName": "销售管理"
+            },
+            {
+                "jobId": 11,
+                "jobName": "销售人员"
+            },
+            {
+                "jobId": 12,
+                "jobName": "销售行政及商务"
+            },
+            {
+                "jobId": 13,
+                "jobName": "客服及技术支持"
+            }
+        ]
+    }
